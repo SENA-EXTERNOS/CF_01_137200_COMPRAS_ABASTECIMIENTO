@@ -1,10 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Inventario y sistemas de gestión de información',
+    descripcionCurso:
+      'El componente formativo tiene como objetivo que el aprendiz adquiera conocimientos de inventarios, normatividad, elaboración de flujogramas de procesos, sistemas de información logística, metodologías y criterios de valoración, costos de inventarios, pedidos, etc. Con el fin de que descubra como es el manejo de inventarios de una organización.',
+    //magenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
+    /*imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
@@ -13,7 +14,7 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
-    ],
+    ],*/
   },
   menuPrincipal: {
     menu: [
@@ -32,14 +33,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Inventarios',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Política de inventarios',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Normatividad',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Sistema de reposición de inventarios',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Importancia de los inventarios',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Métodos de control de inventarios',
+            hash: 't_1_5',
           },
         ],
       },
@@ -48,15 +73,107 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistema de información logístico y sus elementos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Elementos del sistema',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Importancia de las tecnologías',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Flujogramas de proceso de inventarios',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Tecnología del manejo de inventarios',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Métodos de valoración de inventarios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de métodos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'Metodologías para la medición de existencias y el manejo de inventarios',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Criterios de valoración',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Costos de inventarios',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Tipos de costos',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Costos relacionados con el stock',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Costes de pedidos',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Precio de adquisición',
+            hash: 't_4_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.5',
+            titulo: 'Métodos de costeo',
+            hash: 't_4_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.6',
+            titulo: 'Costeo de inventarios',
+            hash: 't_4_6',
+          },
+        ],
       },
     ],
     subMenu: [
