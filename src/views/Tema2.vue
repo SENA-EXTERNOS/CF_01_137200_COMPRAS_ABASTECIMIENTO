@@ -113,10 +113,64 @@
             .tarjeta-slide__contenido.p-4.p-xl-5
               h3 Asignación de labores: 
               p teniendo definido el diagrama de flujo con el que se va a trabajar, la gerencia y recursos humanos deberá iniciar con el proceso de selección y asignación de los roles que va a desempeñar cada uno de ellos en el proceso de inventarios. 
+              br
+
+      .row.justify-content-center
+        .col-lg-8.sm-8
+          .titulo-sexto.color-acento-contenido            
+            b Figura 2
+            p Estructura general PCL
+
+      .row.justify-content-center
+        .col-lg-10.mb-5
+          figure
+            img(src="@/assets/curso/temas/tema2/g4.svg", alt="alt")
+
+    Separador
+
+    #t_2_4.titulo-segundo.color-black
+      h2 2.4.	Tecnología del manejo de inventarios
+           
+    p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y softwares bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
+
+    .row
+      .col-lg-4.mb-3
+        img(src="@/assets/curso/temas/tema2/g5.svg", alt="Texto de la imagen")
+      .col-lg-8.mb-3
+        p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene los producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
 
 
+    .row.mb-5
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema2/t1.png', alt='Texto que describa la imagen')
 
+          h3.text-center Tecnología RFID
+          p.text-small Es un sistema que funciona a través de etiquetas, las cuales contienen unas antenas receptoras y transmisoras de información por medio de radiofrecuencias que, al adherirse en los productos, permiten conocer su ubicación.
 
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema2/t2.png', alt='Texto que describa la imagen')
+
+          h3.text-center Picking por voz
+          p.text-small Es una metodología bastante empleada hoy en día en diferentes almacenes y bodegas, donde sus colaboradores cuentan con unos auriculares con micrófono que van conectados a un dispositivo móvil, por medio de los cuales brindan las instrucciones.
+
+      .col-sm-6.col-lg-4.mb-4.mb-sm-0
+        .tarjeta--boton.color-primario.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema2/t3.png', alt='Texto que describa la imagen')
+
+          h3.text-center Modelos de pronósticos
+          p.text-small Existen unos programas o software que retienen información de datos históricos  y por medio de algoritmos estadísticos realizan proyecciones que le van permitan a las personas encargadas planificar y tomar decisiones pertinentes.
+ 
 </template>
 
 <script>

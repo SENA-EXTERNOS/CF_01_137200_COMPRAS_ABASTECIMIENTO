@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .titulo-principal.color-acento-contenido
@@ -21,7 +21,7 @@
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Falso / verdadero
-            .col--auto
+            .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece

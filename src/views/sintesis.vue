@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno(icono="fas fa-tasks" titulo="Sintesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.justify-content-center
@@ -21,7 +21,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintasis/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintasis/s1.png", alt="alt")
 
 </template>
 
