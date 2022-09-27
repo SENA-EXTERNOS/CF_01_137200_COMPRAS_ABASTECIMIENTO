@@ -9,7 +9,7 @@
 
     .row
       .col-11
-        p Según García, Pantoja y en el libro Fundamentos y técnicas de costos (2010), la evaluación de los inventarios es un proceso determinado y formulado por las personas encargadas del control de la empresa. El diseño de la valoración permitirá obtener el valor real en términos monetarios de la cantidad total de cada uno de los productos que allí se encuentran acaparados. Existen tres métodos principales para el planteamiento de la evaluación: identificación específica, Primeras en Entrar, Primeras en Salir (PEPS o FIFO), Método de costo promedio y Últimas en Entrar Primeras en Salir (LIFO o UEPS). 
+        p Según García, Pantoja y en el #[i libro Fundamentos y técnicas de costos (2010)], la evaluación de los inventarios es un proceso determinado y formulado por las personas encargadas del control de la empresa. El diseño de la valoración permitirá obtener el valor real en términos monetarios de la cantidad total de cada uno de los productos que allí se encuentran acaparados. Existen tres métodos principales para el planteamiento de la evaluación: identificación específica, Primeras en Entrar, Primeras en Salir (PEPS o FIFO), Método de costo promedio y Últimas en Entrar Primeras en Salir (LIFO o UEPS). 
       .col-1
         img(src="@/assets/curso/temas/tema3/g1.svg", alt="Texto de la imagen")
 

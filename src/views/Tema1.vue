@@ -40,40 +40,37 @@
 
     .row
       .col-md-2
-        img(src="@/assets/curso/temas/tema1/t1-1.png", alt="")
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/t1-1.svg", alt="")
       .col-md-10
         p Cuando se habla de política administrativa o empresarial, se hace referencia a un grupo de directrices que van alineadas con las medidas, normas, estrategias y decisiones que toma un área directiva con un alto nivel jerárquico, con el fin de brindar orden en las actividades a desarrollar, alcanzando acuerdos armónicos entre colaboradores y líderes de forma democrática para lograr cumplir con la misión y los objetivos trazados en la planificación. 
-        br
         | Cuando se decide formular una política empresarial se debe iniciar con una notificación concreta de lo que se quiere, seguido se debe comunicar a quienes va dirigida esta política (especificar el área administrativa u operativa), decretar el departamento encargado de que estas políticas se lleven a cabo y, por último, precisar los procedimientos de vigilancia y control con el fin de verificar que se cumpla con lo propuesto.
-        br
         | Cuando una empresa decide implementar dentro de sus procesos el control o manejo de inventarios, lo primero que se debe de realizar o formular es la política de inventarios. Allí se tendrá que plasmar cuáles son esas directrices cómo se llevará a cabo este proceso para que se obtenga un mínimo margen de error en su ejecución y con ello disminuir gastos. Para ello se deben de tener en cuenta variables tales como:
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           br
-          img(src="@/assets/curso/temas/sintasis/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/g2.svg", alt="alt")
 
     Separador
 
     #t_1_2.titulo-segundo.color-black
       h2 1.2  Normatividad 
 
-
-    .row.justify-content-center.mt-5
-      .cajon.color-primario.p-4.mb-4
-      //.cajon.color-acento-botones.p-4.mb-4  
-      .col-lg-2
-        img(src="@/assets/curso/temas/tema1/t1-2.png", alt="")
-      .col-lg-10
-        p Una norma empresarial la componen una serie de reglas que deben ser acatadas por las organizaciones legalmente constituidas, las cuales están impuestas por un ente gubernamental con el fin de tener un control de las conductas o procederes de las compañías. Las empresas deben reportar al menos una vez al año los inventarios que tienen, esto realizado al finalizar el periodo, debido a que es de suma importancia en los procesos contables, por ejemplo, los balances generales. Es allí donde los gerentes o administradores van a demostrar toda su gestión, con lo cual van a identificar una serie de factores que les permitirá reconocer lo que se está haciendo de buena manera y las fallas que se están teniendo, logrando corregir a tiempo y conseguir una mejora continua. La que rige los inventarios es la NIC 2 y junto a este también se tiene el Decreto 2649 de 1993.         
-        | Para conocer más sobre la Normatividad, haga clic en #[b ver más.]
-        br
-        | de los inventarios, descargue el siguiente documento:
-      .col-auto
-        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+    .cajon.color-primario.p-3.mb-5 
+      .row.justify-content-center.mt-5
+        .col-lg-3
+          img(src="@/assets/curso/temas/tema1/t1-2.svg", alt="")
+        .col-lg-9
+          p Una norma empresarial la componen una serie de reglas que deben ser acatadas por las organizaciones legalmente constituidas, las cuales están impuestas por un ente gubernamental con el fin de tener un control de las conductas o procederes de las compañías. Las empresas deben reportar al menos una vez al año los inventarios que tienen, esto realizado al finalizar el periodo, debido a que es de suma importancia en los procesos contables, por ejemplo, los balances generales. Es allí donde los gerentes o administradores van a demostrar toda su gestión, con lo cual van a identificar una serie de factores que les permitirá reconocer lo que se está haciendo de buena manera y las fallas que se están teniendo, logrando corregir a tiempo y conseguir una mejora continua. La que rige los inventarios es la NIC 2 y junto a este también se tiene el Decreto 2649 de 1993.         
+          | Para conocer más sobre la Normatividad, haga clic en #[b ver más.]
+          br
+          | de los inventarios, descargue el siguiente documento:
+        .col-auto
+            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+              span Descargar
+              i.fas.fa-file-download
 
     Separador
 
@@ -82,7 +79,7 @@
 
     .row.justify-content-center.mb-3
       .col-lg-1
-        img(src="@/assets/curso/temas/tema1/t1-3.png", alt="")
+        img(src="@/assets/curso/temas/tema1/t1-4.svg", alt="")
       .col-lg-11
         p Un sistema de reposición tiene como objetivo que las empresas, ya sean distribuidores, pymes o industrias, tengan un buen flujo de ventas o de producción, donde siempre se cuente con las materias primas necesarias para los procesos productivos, o en el caso de las compañías comerciales que siempre tengan el artículo que el cliente está solicitando para así lograr una relación armónica y cumplir con sus necesidades y expectativas.
         | Empleando un sistema de reposición de inventarios todo será más sencillo, ya que allí estará importada toda la información relacionada con ventas, materias primas, insumos, compras, entradas, salidas, entre otros, por lo cual este software sabrá cuándo se deberá realizar un reabastecimiento, solicitar insumos a los proveedores, productos que están agotados o a punto de agotarse, artículos que llevan cierta cantidad de tiempo almacenados.
@@ -99,7 +96,7 @@
         p La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas.
         p Si desea profundizar en el tema Importancia de los inventarios, haga clic en #[b ver más.]
       .col-lg-4
-        img(src="@/assets/curso/temas/tema1/t1-4.png", alt="")
+        img(src="@/assets/curso/temas/tema1/t1-3.svg", alt="")
     
     .tarjeta.color-secundario.p-3.mb-5
       .row.justify-content-around.align-items-center
