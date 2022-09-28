@@ -11,7 +11,7 @@
 
     .row
       .col-md-2
-        img(src="@/assets/curso/introduccion/banner-intro.jpg", alt="")
+        img(src="@/assets/curso/introduccion/banner-intro.jpg", alt="").banner-principal-decorativo-3
       .col-md-10
         p Estimado aprendiz, bienvenido a este componente formativo donde apropiará conocimientos relacionados con los inventarios, la importancia de aplicarlos en las empresas, cómo formular una política de inventarios, normativas que los rigen, sistemas de reposición, métodos de control, métodos de evaluación y costos que implica la implementación de estos procesos, los cuales le permitirán a la empresa tener un control de sus productos y llevar su producción a altos estándares, brindando cumplimiento a sus clientes y productos de calidad.
         

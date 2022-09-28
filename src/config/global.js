@@ -3,8 +3,18 @@ export default {
     componenteFormativo: 'Inventario y sistemas de gestión de información',
     descripcionCurso:
       'El componente formativo tiene como objetivo que el aprendiz adquiera conocimientos de inventarios, normatividad, elaboración de flujogramas de procesos, sistemas de información logística, metodologías y criterios de valoración, costos de inventarios, pedidos, etc. Con el fin de que descubra como es el manejo de inventarios de una organización.',
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenBannerPrincipal: require('@/assets/curso/portada/principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/fechaizquierda.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/fechaderecha.png'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

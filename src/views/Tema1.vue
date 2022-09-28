@@ -40,8 +40,7 @@
 
     .row
       .col-md-2
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema1/t1-1.svg", alt="")
+        img(src="@/assets/curso/temas/tema1/t1-1.svg", alt="").banner-principal-decorativo-3
       .col-md-10
         p Cuando se habla de política administrativa o empresarial, se hace referencia a un grupo de directrices que van alineadas con las medidas, normas, estrategias y decisiones que toma un área directiva con un alto nivel jerárquico, con el fin de brindar orden en las actividades a desarrollar, alcanzando acuerdos armónicos entre colaboradores y líderes de forma democrática para lograr cumplir con la misión y los objetivos trazados en la planificación. 
         | Cuando se decide formular una política empresarial se debe iniciar con una notificación concreta de lo que se quiere, seguido se debe comunicar a quienes va dirigida esta política (especificar el área administrativa u operativa), decretar el departamento encargado de que estas políticas se lleven a cabo y, por último, precisar los procedimientos de vigilancia y control con el fin de verificar que se cumpla con lo propuesto.
@@ -79,7 +78,7 @@
 
     .row.justify-content-center.mb-3
       .col-lg-1
-        img(src="@/assets/curso/temas/tema1/t1-4.svg", alt="")
+        img(src="@/assets/curso/temas/tema1/t1-4.svg", alt="").banner-principal-decorativo-3
       .col-lg-11
         p Un sistema de reposición tiene como objetivo que las empresas, ya sean distribuidores, pymes o industrias, tengan un buen flujo de ventas o de producción, donde siempre se cuente con las materias primas necesarias para los procesos productivos, o en el caso de las compañías comerciales que siempre tengan el artículo que el cliente está solicitando para así lograr una relación armónica y cumplir con sus necesidades y expectativas.
         | Empleando un sistema de reposición de inventarios todo será más sencillo, ya que allí estará importada toda la información relacionada con ventas, materias primas, insumos, compras, entradas, salidas, entre otros, por lo cual este software sabrá cuándo se deberá realizar un reabastecimiento, solicitar insumos a los proveedores, productos que están agotados o a punto de agotarse, artículos que llevan cierta cantidad de tiempo almacenados.

@@ -28,20 +28,14 @@
     TabsA.color-banner-fondo.mb-5
       .tarjeta.color-banner-fondo--borde.p-4(titulo="Toma de decisiones")  
         h4 Toma de decisiones
-        p Se deberán establecer las acciones con las cuales procederá a elaborar el diseño del SIL y se determinará la periodicidad en que se va a realizar este proceso.
+        p <i class="fas fa-angle-right" STYLE="Color: red"></i> Se deberán establecer las acciones con las cuales procederá a elaborar el diseño del SIL y se determinará la periodicidad en que se va a realizar este proceso.
       .tarjeta.color-banner-fondo--borde.p-4(titulo="Requerimientos")
         h4 Requerimientos
-        ul.lista-ul
-          li 
-            i.fas.fa-angle-right
-            | En este ítem se deberán decretar las acciones y la celeridad con la que se va a desempeñar el sistema conforme a los datos y la información allí registrada y transferida.
-        ul.lista-ul
-          li 
-            i.fas.fa-angle-right
-            | Dependiendo del tipo de sistema que se vaya a implementar así mismo será su rendimiento y paralelamente aumentaría su costo.
+        p <i class="fas fa-angle-right" STYLE="Color: red"></i> En este ítem se deberán decretar las acciones y la celeridad con la que se va a desempeñar el sistema conforme a los datos y la información allí registrada y transferida.
+        p <i class="fas fa-angle-right" STYLE="Color: red"></i> Dependiendo del tipo de sistema que se vaya a implementar así mismo será su rendimiento y paralelamente aumentaría su costo.
       .tarjeta.color-banner-fondo--borde.p-4(titulo="Control")
         h4 Control
-        p Como todo proceso y toda sistematización deberá ser monitoreada por una persona especializada, la cual deberá estar atenta a la recolección y análisis de esta información para luego llegar a la toma de decisiones.
+        p <i class="fas fa-angle-right" STYLE="Color: red"></i> Como todo proceso y toda sistematización deberá ser monitoreada por una persona especializada, la cual deberá estar atenta a la recolección y análisis de esta información para luego llegar a la toma de decisiones.
     
     .row
       .col-md-4.mb-3
