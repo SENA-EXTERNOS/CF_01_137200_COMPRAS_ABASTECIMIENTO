@@ -65,6 +65,65 @@
         p El uso de las tecnologías se ha vuelto una práctica indispensable en la vida diaria de las personas debido a las diferentes opciones que nos ofrece la internet y, por ende, las redes sociales, las cuales facilitan la comunicación con las demás personas y la interacción entre ellas. En cuanto a la parte comercial, las RRSS son de vital importancia en la actualidad ya que estos medios han visto la necesidad de incursionar y de brindar esa herramienta a sus usuarios, llegando a tal punto de ofrecer secciones de Marketplace, creación de páginas y usuarios empresariales lo cual permite realizar propuestas a sus clientes a nivel mundial gracias a la globalización.
         | En el ámbito empresarial e industrial, la tecnología ha beneficiado considerablemente a las organizaciones en cada una de las fases de sus procesos productivos y administrativos; desde el instante en que se solicitan las materias primas e insumos, cuando se da inicio a los procesos de diseño y producción y por último en las estrategias tecnológicas que van a emplear en la comercialización de los productos o servicios.
 
+    .bloque-texto-f.color-caja-azul.pt-4.px-5.mb-6
+      .row
+        .col-lg-5
+          h4 Importancia de las tecnologías en las empresas.
+          p El uso de las tecnologías se ha vuelto una práctica indispensable en la vida diaria de las personas debido a las diferentes opciones que nos ofrece la internet, y por ende las redes sociales.
+          img(width="200" height="200" src="@/assets/curso/temas/tema2/img2-2.svg", alt="Texto de la imagen").text-center  
+        
+        .col-lg-7
+          .tarjeta.tarjeta--gris.p-4
+            PasosB.color-acento-contenido
+            
+              .row(titulo="Optimización")
+                h4.text-center.mb-md-4 1.	Optimización:                
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(width="100" height="100" src='@/assets/curso/temas/tema2/mini1.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  p La implementación de aparatos tecnológicos brindará un mejor rendimiento y optimización de los recursos en cada una de las áreas ya que con ello los procesos se realizarán de manera sistematizada.
+              
+              .row(titulo="Competitividad")
+                h4.text-center.mb-md-4 2.	Competitividad:             
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(width="100" height="100" src='@/assets/curso/temas/tema2/mini2.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  p El uso de tecnología en cada uno de los departamentos ayudará a la empresa a ser altamente competitiva debido a la mejora de la estandarización en cada uno de sus procesos.
+              
+              .row(titulo="Comunicación")
+                h4.text-center.mb-md-4 3.	Comunicación:             
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(width="100" height="100" src='@/assets/curso/temas/tema2/mini3.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  p Indudablemente las tecnologías de la comunicación fueron un descubrimiento muy importante para la sociedad y la implementación en las empresas fue demasiado beneficiosa para cada uno de los procesos.
+              
+              .row(titulo="Productividad")
+                h4.text-center.mb-md-4 4.	Productividad:             
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(width="100" height="100" src='@/assets/curso/temas/tema2/mini4.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  p El uso de las tecnologías en los procesos administrativos ayudará a reducir los riesgos, errores y desperdicios, lo cual se transformará en mayor productividad.
+              
+              .row(titulo="Toma de decisiones")
+                h4.text-center.mb-md-4 5.	Toma de decisiones:           
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(width="100" height="100" src='@/assets/curso/temas/tema2/mini5.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  p Al implementar diferentes programas o software`s en cada una de las fases de la organización lograremos obtener mucha información beneficiosa la cual debe ser analizada para la toma de decisiones.
+              
+              .row(titulo="Sucursales omnipresentes")
+                h4.text-center.mb-md-4 6.	Sucursales omnipresentes:            
+                .col-md-4.mb-4.mb-md-0
+                  figure
+                    img(width="100" height="100" src='@/assets/curso/temas/tema2/mini6.svg', alt='Texto que describa la imagen')
+                .col-md-8
+                  p Cuando se hace uso de las diferentes tecnologías los empresarios, administradores o gerentes podrán realizar sus actividades laborales desde distintos lugares.
+              
     Separador
 
     #t_2_3.titulo-segundo.color-black
@@ -109,16 +168,16 @@
               p teniendo definido el diagrama de flujo con el que se va a trabajar, la gerencia y recursos humanos deberá iniciar con el proceso de selección y asignación de los roles que va a desempeñar cada uno de ellos en el proceso de inventarios. 
               br
 
-      .row.justify-content-center
-        .col-lg-8.sm-8
-          .titulo-sexto.color-acento-contenido            
-            b Figura 2
-            p Estructura general PCL
+    .row.justify-content-center
+      .col-lg-8.sm-8
+        .titulo-sexto.color-acento-contenido            
+          b Figura 2
+          p Estructura general PCL
 
-      .row.justify-content-center
-        .col-lg-10.mb-5
-          figure
-            img(src="@/assets/curso/temas/tema2/g4.svg", alt="alt")
+    .row.justify-content-center
+      .col-lg-10.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/g4.svg", alt="alt")
 
     Separador
 
@@ -129,7 +188,7 @@
 
     .row
       .col-lg-4.mb-3
-        img(src="@/assets/curso/temas/tema2/g5.svg", alt="Texto de la imagen")
+        img(src="@/assets/curso/temas/tema2/g5.svg", alt="Texto de la imagen").banner-principal-decorativo-3
       .col-lg-8.mb-3
         p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene los producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
 

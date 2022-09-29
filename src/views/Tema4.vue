@@ -82,22 +82,22 @@
 
     .bloque-texto-b.color-texto-anexo.p-4
       p Los costes de los pedidos abarcan una serie de factores que están asociados a todo el proceso de adquisición de materias primas, almacenamiento, producción y venta. Este tipo de sistema se da cuando un determinado cliente ordena un pedido con ciertas características y cantidades. 
-
-    .tarjeta.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-1.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/mini.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-5.mb-sm-0.col-lg-9
-              p.text-small Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
-              | Hacer clic para ver #[b La hoja de pedido]
-
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
+    
+    .row.justify-content-around.align-items-center
+      .col-lg-2.col-sm-10
+        figure
+          img(width="125" height="125" src="@/assets/curso/temas/tema4/mini.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
+      .col-lg-10.col-sm-10
+        img(src="@/assets/curso/temas/tema4/tema4-4.png")
+        p Descarga el siguiente documento Hoja de pedido:
+  
+          .col-lg-6.col-sm-10
+            a.anexo(:href="obtenerLink('downloads/Anexo_4.docx')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/componentes/icono-doc.svg")
+              .anexo__texto
+                b Anexo 4.
+                p Hoja de pedido
     Separador
     
     #t_4_4.titulo-segundo.color-black
@@ -112,20 +112,21 @@
           figure
             img(src="@/assets/curso/temas/tema4/g2.png", alt="alt")
 
-    .tarjeta.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-1.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/mini.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-5.mb-sm-0.col-lg-9
-              p.text-small Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
-              | Hacer clic para ver #[b La hoja de pedido]
-
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row.justify-content-around.align-items-center
+      .col-lg-2.col-sm-10
+        figure
+          img(width="125" height="125" src="@/assets/curso/temas/tema4/mini1.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
+      .col-lg-10.col-sm-10
+        p Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
+        p Si desea profundizar en los Tipos de descuentos, descarga el siguiente documento:
+  
+          .col-lg-6.col-sm-10
+            a.anexo(:href="obtenerLink('downloads/Anexo_5.docx')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/componentes/icono-doc.svg")
+              .anexo__texto
+                b Anexo 5.
+                p Tipos de descuentos
 
     Separador
     
@@ -191,21 +192,23 @@
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               h1 Costes variables regresivos
               p Son gastos que funcionan en contra del nivel de producción. En este caben de ejemplo los descuentos por volumen. Entre más cantidad de mercancía se compre, menos se va a pagar.
-        
-    .tarjeta.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-1.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/mini.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-5.mb-sm-0.col-lg-9
-              p.text-small Si desea visualizar algunas fórmulas para el cálculo de los tipos de costes y algunas técnicas para la reducción de estos, 
-              | haga clic en #[b ver más.]
 
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+
+    .row.justify-content-around.align-items-center
+      .col-lg-2.col-sm-10
+        figure
+          img(width="125" height="125" src="@/assets/curso/temas/tema4/mini4.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
+      .col-lg-10.col-sm-10
+        p Si desea visualizar algunas fórmulas para el cálculo de los tipos de costes y algunas técnicas para la reducción de los mismos
+        p Descarga el siguiente documento:
+  
+          .col-lg-6.col-sm-10
+            a.anexo(:href="obtenerLink('downloads/Anexo_6.docx')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/componentes/icono-doc.svg")
+              .anexo__texto
+                b Anexo 6.
+                p Tipos de costes
 
     Separador
     
@@ -214,7 +217,7 @@
 
     .row 
       .col-lg-1
-        img(src='@/assets/curso/temas/tema4/mini4.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema4/mini5.svg', alt='Texto que describa la imagen')
       .col-lg-11
         .cajon-b.color-primario.p-3.mb-5
           p Los costes de los inventarios son todos los gastos que se requieren para llevar a cabo este proceso que comprende tantas actividades y que ninguna de ellas se puede dejar pasar por alto, estas se encuentran debidamente planificadas, organizadas y estarán controladas por una persona o un software. Todas estas fases comprenden una serie de gastos que la empresa debe asumir, bien sean del personal operativo, los alquileres de almacenes o bodegas, softwares, maquinarias para el cargue y descargue de mercancías, entre otros.

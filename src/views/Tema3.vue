@@ -11,7 +11,7 @@
       .col-11
         p Según García, Pantoja y en el #[i libro Fundamentos y técnicas de costos (2010)], la evaluación de los inventarios es un proceso determinado y formulado por las personas encargadas del control de la empresa. El diseño de la valoración permitirá obtener el valor real en términos monetarios de la cantidad total de cada uno de los productos que allí se encuentran acaparados. Existen tres métodos principales para el planteamiento de la evaluación: identificación específica, Primeras en Entrar, Primeras en Salir (PEPS o FIFO), Método de costo promedio y Últimas en Entrar Primeras en Salir (LIFO o UEPS). 
       .col-1
-        img(src="@/assets/curso/temas/tema3/g1.svg", alt="Texto de la imagen")
+        img(src="@/assets/curso/temas/tema3/g1.svg", alt="Texto de la imagen").banner-principal-decorativo-3
 
     figure
       .video
@@ -34,39 +34,19 @@
           .col-md-2
             img(width="60" height="60" src="@/assets/curso/temas/tema3/p1.svg", alt="Texto de la imagen" )
           .col-md-6.mb-4.mb-md-0
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Fabricación de pocas unidades. 
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Costo de producción alto.
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Sus características no son intercambiables entre sí.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Fabricación de pocas unidades. 
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo de producción alto.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Sus características no son intercambiables entre sí.
 
         .row
-          .col-md-6.mb-4.mb-md-0
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Primeras mercancías adquiridas o fabricadas, serán las primeras en ser vendidas.
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | El inventario final estará valorado con los últimos precios. 
-          .col-md-2
-            img(width="60" height="60" src="@/assets/curso/temas/tema3/p2.svg", alt="Texto de la imagen" )
           .col-md-4
             .bloque-texto-e.color-acento-botones.p-4.mb-4
               .h2 PEP o FIFO:
+          .col-md-2
+            img(width="60" height="60" src="@/assets/curso/temas/tema3/p2.svg", alt="Texto de la imagen" )
+          .col-md-6.mb-4.mb-md-0
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Primeras mercancías adquiridas o fabricadas, serán las primeras en ser vendidas.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> El inventario final estará valorado con los últimos precios. 
 
         .row
           .col-md-4
@@ -75,52 +55,24 @@
           .col-md-2
             img(width="60" height="60" src="@/assets/curso/temas/tema3/p3.svg", alt="Texto de la imagen" )
           .col-md-6.mb-4.mb-md-0
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check 
-                | Método de valoración más utilizado.
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check 
-                | Promedia costos antiguos y actuales.
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check 
-                | Costo único para cada referencia.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Método de valoración más utilizado.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Promedia costos antiguos y actuales.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo único para cada referencia.
 
         .row
-          .col-md-6.mb-4.mb-md-0
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Últimos costos son los primeros en salir. 
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check
-                | Genera costos altos.
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check 
-                | Tiene como ventaja el pagar menos impuestos.
-            h4 
-            ul.lista-ul--color
-              li 
-                i.fas.fa-check 
-                | Es una metodología prohibida por la NIC 2. 
-          .col-md-2
-            img(width="60" height="60" src="@/assets/curso/temas/tema3/p4.svg", alt="Texto de la imagen" )
           .col-md-4
             .bloque-texto-e.color-acento-botones.p-4.mb-4
               .h2 UEPS o LIFO:
+          .col-md-2
+            img(width="60" height="60" src="@/assets/curso/temas/tema3/p4.svg", alt="Texto de la imagen" )
+          .col-md-6.mb-4.mb-md-0
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Últimos costos son los primeros en salir. 
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Genera costos altos.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Tiene como ventaja el pagar menos impuestos.
+            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Es una metodología prohibida por la NIC 2. 
 
       .col-lg-4
-        img(src="@/assets/curso/temas/tema3/g2.svg", alt="Texto de la imagen")
+        img(src="@/assets/curso/temas/tema3/g2.svg", alt="Texto de la imagen").banner-principal-decorativo-3
     
     Separador
 
@@ -150,19 +102,15 @@
               th Sistema de inventario continua
           tbody
             tr
-              td.text-center  
-                .col-lg-12
+              td.col-lg-12 
                   img(src="@/assets/curso/temas/tema3/t3-3-p1.png", alt="Texto de la imagen")
-              td.text-center 
-                .col-lg-12
+              td.col-lg-12
                   img(src="@/assets/curso/temas/tema3/t3-3-p2.png", alt="Texto de la imagen")
           tfoot
             tr
-              td.text-center 
-                .col-lg-12 
+              td.col-lg-12 
                   p Cuando hacemos referencia al sistema de revisión periódico se refiere a esa vigilancia que se le realiza a los artículos o materias primas, las cuales se les practicarán en tiempos equivalentes, ya sea semana a semana, mes a mes, trimestre a trimestre, etc. Lo que quiere decir que hasta no terminar ese lapso de tiempo, no se podrá realizar nuevos pedidos a proveedores.
-              td.text-center 
-                .col-lg-12
+              td.col-lg-12
                   p En este tipo de revisión, la inspección de las mercancías se realiza de manera permanente y seguida. Cada que se tiene información de una compra o de una orden de producción en el software, inmediatamente se debe realizar la revisión del inventario.
 
 </template>

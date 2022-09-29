@@ -63,13 +63,15 @@
           img(src="@/assets/curso/temas/tema1/t1-2.svg", alt="")
         .col-lg-9
           p Una norma empresarial la componen una serie de reglas que deben ser acatadas por las organizaciones legalmente constituidas, las cuales están impuestas por un ente gubernamental con el fin de tener un control de las conductas o procederes de las compañías. Las empresas deben reportar al menos una vez al año los inventarios que tienen, esto realizado al finalizar el periodo, debido a que es de suma importancia en los procesos contables, por ejemplo, los balances generales. Es allí donde los gerentes o administradores van a demostrar toda su gestión, con lo cual van a identificar una serie de factores que les permitirá reconocer lo que se está haciendo de buena manera y las fallas que se están teniendo, logrando corregir a tiempo y conseguir una mejora continua. La que rige los inventarios es la NIC 2 y junto a este también se tiene el Decreto 2649 de 1993.         
-          | Para conocer más sobre la Normatividad, haga clic en #[b ver más.]
+          | Para conocer más sobre la Normatividad de los inventarios, descargue el siguiente documento:
           br
-          | de los inventarios, descargue el siguiente documento:
-        .col-auto
-            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
-              span Descargar
-              i.fas.fa-file-download
+          .col-sm-auto
+            a.anexo(:href="obtenerLink('downloads/Anexo_1.docx')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/componentes/icono-doc.svg")
+              .anexo__texto
+                b Anexo 1.
+                p Normatividad de los inventarios
 
     Separador
 
@@ -93,23 +95,26 @@
         p Los inventarios son de suma importancia en las empresas industriales, distribuidoras, pymes y todas aquellas que tengan por actividad económica la compra y venta de bienes o servicios. Cada uno de estos bienes, productos, servicios y materias primas deberán estar ordenadas, caracterizadas y cualificadas para lograr ser organizadas en los almacenes y así la empresa saber cuál es su patrimonio y en base a esto planificar sus estrategias de producción y ventas.
         p El proceso de inventarios también incluye o aporta beneficios en el área logística de la empresa debido a que son dos departamentos que deben de trabajar en conjunto para conseguir una correcta gestión de funciones de almacenamiento y distribución para cumplir con la demanda proyectada.
         p La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas.
-        p Si desea profundizar en el tema Importancia de los inventarios, haga clic en #[b ver más.]
+        p Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:
       .col-lg-4
         img(src="@/assets/curso/temas/tema1/t1-3.svg", alt="")
-    
-    .tarjeta.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-1.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ej-01.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-5.mb-sm-0.col-lg-9
-              p.text-small La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-                
+         
+    .row.justify-content-around.align-items-center
+      .col-lg-2.col-sm-10
+        figure
+          img(width="125" height="125" src="@/assets/componentes/ej-01.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
+      .col-lg-10.col-sm-10
+        p La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
+
+        
+          .col-lg-6.col-sm-10
+            a.anexo(:href="obtenerLink('downloads/Anexo_2.docx')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/componentes/icono-doc.svg")
+              .anexo__texto
+                b Anexo 2.
+                p Importancia de los inventarios
+            
     Separador
 
     #t_1_5.titulo-segundo.color-black
@@ -122,18 +127,22 @@
           figure
             img(src='@/assets/curso/temas/tema1/t1-5.svg', alt='Texto que describa la imagen')
     br
-    .tarjeta.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-1.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ej-02.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-5.mb-sm-0.col-lg-9
-              p.text-small Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento. 
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+
+    .row.justify-content-around.align-items-center
+      .col-lg-2.col-sm-10
+        figure
+          img(width="125" height="125" src="@/assets/componentes/ej-02.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
+      .col-lg-10.col-sm-10
+        p Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento. 
+
+        
+          .col-lg-6.col-sm-10
+            a.anexo(:href="obtenerLink('downloads/Anexo_3.docx')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/componentes/icono-doc.svg")
+              .anexo__texto
+                b Anexo 3.
+                p Tipos de métodos de control de inventarios
 
 </template>
 
