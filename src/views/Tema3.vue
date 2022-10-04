@@ -20,7 +20,7 @@
 
     Separador
    
-    #t_3_1.titulo-segundo.color-black
+    #t_3_1.titulo-segundo.color-primario
       h2 3.1	Tipos de métodos
 
     p La Norma Internacional de Contabilidad 2 (NIC 2) cual contempla una serie de ítems a tener en cuenta a la hora de realizar los procesos contables y los cálculos de los costos de inventarios, y a su vez determina siete (7) métodos de valoración de inventarios, aunque la normatividad colombiana solo tiene en cuenta cuatro de ellos.
@@ -76,7 +76,7 @@
     
     Separador
 
-    #t_3_2.titulo-segundo.color-black
+    #t_3_2.titulo-segundo.color-primario
       h2 3.2.	Metodologías para la medición de existencias y el manejo de inventarios
 
     .row
@@ -88,7 +88,7 @@
 
     Separador
     
-    #t_3_3.titulo-segundo.color-black
+    #t_3_3.titulo-segundo.color-primario
       h2 3.3.	Criterios de valoración
 
     p Al momento de realizar una valoración de los inventarios se deben tener en cuenta unos criterios que indican cómo realizar este procedimiento y cuál se ajusta mejor a la actividad de la empresa:

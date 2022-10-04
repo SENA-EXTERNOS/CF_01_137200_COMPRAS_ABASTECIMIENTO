@@ -23,8 +23,8 @@
               p.fw-bold.mb-0 Falso / verdadero
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
-                span Realizar
-                i.fas.fa-puzzle-piece
+                span.color-blanco Realizar
+                i.fas.fa-puzzle-piece.color-blanco
                 
 </template>
 

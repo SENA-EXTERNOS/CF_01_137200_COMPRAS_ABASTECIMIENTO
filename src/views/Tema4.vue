@@ -15,7 +15,7 @@
 
     Separador
     
-    #t_4_1.titulo-segundo.color-black
+    #t_4_1.titulo-segundo.color-primario
       h2 4.1.	Tipos de costos
 
     p Dentro de los tipos de costos tenemos: adquisición y aprovisionamiento, mantenimiento y almacenamiento, y costos administrativos.
@@ -65,7 +65,7 @@
 
     Separador
     
-    #t_4_2.titulo-segundo.color-black
+    #t_4_2.titulo-segundo.color-primario
       h2 4.2.	Costos relacionados con el stock
 
     .row 
@@ -77,7 +77,7 @@
 
     Separador
     
-    #t_4_3.titulo-segundo.color-black
+    #t_4_3.titulo-segundo.color-primario
       h2 4.3.	Costes de pedidos
 
     .bloque-texto-b.color-texto-anexo.p-4
@@ -100,7 +100,7 @@
                 p Hoja de pedido
     Separador
     
-    #t_4_4.titulo-segundo.color-black
+    #t_4_4.titulo-segundo.color-primario
       h2 4.4.	Precio de adquisición
 
     .bloque-texto-b.color-texto-anexo.p-4
@@ -130,7 +130,7 @@
 
     Separador
     
-    #t_4_5.titulo-segundo.color-black
+    #t_4_5.titulo-segundo.color-primario
       h2 4.5.	Métodos de costeo
 
     .row 
@@ -212,7 +212,7 @@
 
     Separador
     
-    #t_4_6.titulo-segundo.color-black
+    #t_4_6.titulo-segundo.color-primario
       h2 4.6.	Costeo de inventarios
 
     .row 

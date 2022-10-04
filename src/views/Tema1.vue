@@ -7,35 +7,32 @@
         span 1
       h1 Inventarios
 
-      Separador
-
     p En las organizaciones el concepto de los inventarios está asociado con la planificación estratégica y la logística. Uno de los procesos a los que se les debe brindar mayor relevancia e importancia es al control y manejo de inventarios, ya que si no se tiene un buen monitoreo de las materias primas fácilmente los procesos de producción no van a marchar al ritmo que se tiene planeado para cumplir con la demanda. Otro de los inconvenientes que se presentan a diario en las empresas, es que no hacen el correcto uso de los inventarios, en muchas ocasiones se quedan con los productos que son menormente adquiridos por los clientes y se agotan los más vendidos. Los inventarios se realizan tanto para materias primas como para productos terminados.
+    p Los inventarios se pueden clasificar dependiendo de sus fases, estos son:
     br
-    | Los inventarios se pueden clasificar dependiendo de sus fases, estos son:
-
     SlyderC.mb-5(:datos="datosSlyder")
 
     p En el proceso de inventarios se tienen en cuenta ciertos criterios que deben ser considerados para lograr una correcta gestión:
 
-    .row
-      .col-md-4
-        figure
-          img(src="@/assets/template/acordion1.svg", alt="alt")
-      .col-md-8
-        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta color-primario")
-          .row(titulo="Demanda")
-            .col-12
-              p.mb-0 Es la proyección que se realiza de manera probabilística de la cantidad de artículos o servicios que se planean vender.
-          .row(titulo="Tiempo")
-            .col-12
-              p.mb-0 Es el cálculo en cuanto a tiempos desde que se tiene la necesidad de adquirir la mercancía hasta que llega a la empresa. También aplica para el proceso de producción y se da desde el momento que se brinda una orden, hasta el momento en que se da inicio a la misma.
-          .row(titulo="Costos")
-            .col-12
-              p.mb-0 Los inventarios representan una serie de gastos para su manejo, es aquí donde se tienen en cuenta costos operativos como lo son los almacenes, softwares, mantenimientos, penalizaciones adquisiciones de materias primas, etc.
+      .row
+        .col-md-4
+          figure
+            img(src="@/assets/template/acordion1.svg", alt="alt")
+        .col-md-8
+          AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta color-primario")
+            .row(titulo="Demanda")
+              .col-12
+                p.mb-0 Es la proyección que se realiza de manera probabilística de la cantidad de artículos o servicios que se planean vender.
+            .row(titulo="Tiempo")
+              .col-12
+                p.mb-0 Es el cálculo en cuanto a tiempos desde que se tiene la necesidad de adquirir la mercancía hasta que llega a la empresa. También aplica para el proceso de producción y se da desde el momento que se brinda una orden, hasta el momento en que se da inicio a la misma.
+            .row(titulo="Costos")
+              .col-12
+                p.mb-0 Los inventarios representan una serie de gastos para su manejo, es aquí donde se tienen en cuenta costos operativos como lo son los almacenes, softwares, mantenimientos, penalizaciones adquisiciones de materias primas, etc.
   
     Separador
 
-    #t_1_1.titulo-segundo.color-black
+    #t_1_1.titulo-segundo.color-primario
       h2 1.1  Política de inventarios
 
     .row
@@ -43,8 +40,8 @@
         img(src="@/assets/curso/temas/tema1/t1-1.svg", alt="").banner-principal-decorativo-3
       .col-md-10
         p Cuando se habla de política administrativa o empresarial, se hace referencia a un grupo de directrices que van alineadas con las medidas, normas, estrategias y decisiones que toma un área directiva con un alto nivel jerárquico, con el fin de brindar orden en las actividades a desarrollar, alcanzando acuerdos armónicos entre colaboradores y líderes de forma democrática para lograr cumplir con la misión y los objetivos trazados en la planificación. 
-        | Cuando se decide formular una política empresarial se debe iniciar con una notificación concreta de lo que se quiere, seguido se debe comunicar a quienes va dirigida esta política (especificar el área administrativa u operativa), decretar el departamento encargado de que estas políticas se lleven a cabo y, por último, precisar los procedimientos de vigilancia y control con el fin de verificar que se cumpla con lo propuesto.
-        | Cuando una empresa decide implementar dentro de sus procesos el control o manejo de inventarios, lo primero que se debe de realizar o formular es la política de inventarios. Allí se tendrá que plasmar cuáles son esas directrices cómo se llevará a cabo este proceso para que se obtenga un mínimo margen de error en su ejecución y con ello disminuir gastos. Para ello se deben de tener en cuenta variables tales como:
+        p Cuando se decide formular una política empresarial se debe iniciar con una notificación concreta de lo que se quiere, seguido se debe comunicar a quienes va dirigida esta política (especificar el área administrativa u operativa), decretar el departamento encargado de que estas políticas se lleven a cabo y, por último, precisar los procedimientos de vigilancia y control con el fin de verificar que se cumpla con lo propuesto.
+        p Cuando una empresa decide implementar dentro de sus procesos el control o manejo de inventarios, lo primero que se debe de realizar o formular es la política de inventarios. Allí se tendrá que plasmar cuáles son esas directrices cómo se llevará a cabo este proceso para que se obtenga un mínimo margen de error en su ejecución y con ello disminuir gastos. Para ello se deben de tener en cuenta variables tales como:
 
     .row.justify-content-center
       .col-lg-12.mb-5
@@ -54,28 +51,24 @@
 
     Separador
 
-    #t_1_2.titulo-segundo.color-black
+    #t_1_2.titulo-segundo.color-primario
       h2 1.2  Normatividad 
 
-    .cajon.color-primario.p-3.mb-5 
+    .bloque-texto-e.color-primario.p-3
       .row.justify-content-center.mt-5
         .col-lg-3
           img(src="@/assets/curso/temas/tema1/t1-2.svg", alt="")
         .col-lg-9
           p Una norma empresarial la componen una serie de reglas que deben ser acatadas por las organizaciones legalmente constituidas, las cuales están impuestas por un ente gubernamental con el fin de tener un control de las conductas o procederes de las compañías. Las empresas deben reportar al menos una vez al año los inventarios que tienen, esto realizado al finalizar el periodo, debido a que es de suma importancia en los procesos contables, por ejemplo, los balances generales. Es allí donde los gerentes o administradores van a demostrar toda su gestión, con lo cual van a identificar una serie de factores que les permitirá reconocer lo que se está haciendo de buena manera y las fallas que se están teniendo, logrando corregir a tiempo y conseguir una mejora continua. La que rige los inventarios es la NIC 2 y junto a este también se tiene el Decreto 2649 de 1993.         
           | Para conocer más sobre la Normatividad de los inventarios, descargue el siguiente documento:
-          br
-          .col-sm-auto
-            a.anexo(:href="obtenerLink('downloads/Anexo_1.docx')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/componentes/icono-doc.svg")
-              .anexo__texto
-                b Anexo 1.
-                p Normatividad de los inventarios
+        .col-sm-auto
+          a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1.docx')" target="_blank")
+            span Anexo 1. Normatividad de los inventarios
+            i.fas.fa-file-download
 
     Separador
 
-    #t_1_3.titulo-segundo.color-black
+    #t_1_3.titulo-segundo.color-primario
       h2 1.3  Sistema de reposición de inventarios
 
     .row.justify-content-center.mb-3
@@ -87,7 +80,7 @@
 
     Separador
 
-    #t_1_4.titulo-segundo.color-black
+    #t_1_4.titulo-segundo.color-primario
       h2 1.4  Importancia de los inventarios
 
     .row.justify-content-center.mb-3
@@ -98,26 +91,21 @@
         p Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:
       .col-lg-4
         img(src="@/assets/curso/temas/tema1/t1-3.svg", alt="")
-         
-    .row.justify-content-around.align-items-center
-      .col-lg-2.col-sm-10
-        figure
-          img(width="125" height="125" src="@/assets/componentes/ej-01.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
-      .col-lg-10.col-sm-10
-        p La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
-
-        
-          .col-lg-6.col-sm-10
-            a.anexo(:href="obtenerLink('downloads/Anexo_2.docx')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/componentes/icono-doc.svg")
-              .anexo__texto
-                b Anexo 2.
-                p Importancia de los inventarios
-            
+    
+    .tarjeta.bloque-texto-color-clausulas-azul(data-aos="fade-left")      
+          .row.justify-content-around.p-4.position-relative
+                .col-2
+                    .tarjeta.tarjeta--blanca
+                        img(src="@/assets/componentes/ej-01.svg").imagen-izquierda-tarjeta-clausulas
+                .col-10    
+                    p.bloque-texto-color-blanco La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
+                .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_2.docx')" target="_blank")
+                      span Anexo 2. Importancia de los inventarios
+                      i.fas.fa-file-download
     Separador
 
-    #t_1_5.titulo-segundo.color-black
+    #t_1_5.titulo-segundo.color-primario
       h2 1.5 Métodos de control de inventarios 
 
     p Existen diferentes tipos de métodos para el manejo y control de inventarios, los cuales cada uno posee diferentes características que deberán ser analizadas por las personas especializadas para saber cuál se ajusta de manera más efectiva a la empresa dependiendo de su actividad económica y del producto que comercialicen.
@@ -128,21 +116,17 @@
             img(src='@/assets/curso/temas/tema1/t1-5.svg', alt='Texto que describa la imagen')
     br
 
-    .row.justify-content-around.align-items-center
-      .col-lg-2.col-sm-10
-        figure
-          img(width="125" height="125" src="@/assets/componentes/ej-02.svg", alt='Texto que describa la imagen').img-tarjeta-linea-1
-      .col-lg-10.col-sm-10
-        p Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento. 
-
-        
-          .col-lg-6.col-sm-10
-            a.anexo(:href="obtenerLink('downloads/Anexo_3.docx')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/componentes/icono-doc.svg")
-              .anexo__texto
-                b Anexo 3.
-                p Tipos de métodos de control de inventarios
+    .tarjeta.bloque-texto-color-clausulas-amarilla(data-aos="fade-left")      
+          .row.justify-content-around.p-4.position-relative
+                .col-2
+                    .tarjeta.tarjeta--blanca
+                        img(src="@/assets/componentes/ej-02.svg").imagen-izquierda-tarjeta-clausulas
+                .col-10    
+                    p.bloque-texto-color-negro Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento. 
+                .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_3.docx')" target="_blank")
+                      span Anexo 3. Tipos de métodos de control de inventarios
+                      i.fas.fa-file-download
 
 </template>
 
