@@ -218,22 +218,69 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Fundamentos de control y gestión de inventarios',
+      referencia:
+        'Vidal Holguín, C. J. (2010). Fundamentos de control y gestión de inventarios. Programa Editorial UNIVALLE.',
+      tipo: 'Libro',
+      link:
+        'https://books.google.es/books?hl=es&lr=&id=IRPmDwAAQBAJ&oi=fnd&pg=PA11&dq=gesti%C3%B3n+de+inventarios&ots=jzfHxLumMN&sig=ZWfCP8jcJGf-PVIoZxUklt22SAE',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Política de inventarios',
+      referencia:
+        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. Revista Ingeniería Industrial, 17(1), 5-22.',
+      tipo: 'PDF',
+      descarga: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7047360',
+    },
+    {
+      tema: 'NIC 2',
+      referencia:
+        'Contabilidad, N. I. (2013). NIC 2 Inventarios. NIC 2 Inventarios.',
+      tipo: 'PDF',
+      descarga:
+        'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_NC_2.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Costo:',
+      significado:
+        'El costo de producción (o costo de operación) es el gasto necesario para fabricar un bien o para generar un servicio. (Arias E. R., 2020)',
+    },
+    {
+      termino: 'Competitividad:',
+      significado:
+        'La capacidad de una persona u organización para desarrollar ventajas competitivas con respecto a sus competidores (Roldán, Economipedia, 2016).',
+    },
+    {
+      termino: 'Control:',
+      significado:
+        'Etapa de la gestión administrativa que se refiere a la evaluación de procesos y del rendimiento administrativo, así como de la identificación de desviaciones y posibles anomalías. (Galán, 2021).',
+    },
+    {
+      termino: 'Inventario:',
+      significado:
+        'Es el registro de los bienes que pertenecen a una persona natural o jurídica. Así, queda constancia de una serie de activos u objetos (Westreicher, Economipedia, 2020).',
+    },
+    {
+      termino: 'Logística::',
+      significado:
+        'Son todas las operaciones llevadas a cabo para hacer posible que un producto llegue al consumidor desde el lugar donde se obtienen las materias primas, pasando por el lugar de su producción (Arias A. S., 2012).',
+    },
+    {
+      termino: 'Producción:',
+      significado:
+        'Es la actividad económica que se encarga de transformar los insumos para convertirlos en productos (Quiroa, 2020).',
+    },
+    {
+      termino: 'Sistema:',
+      significado:
+        'Está conformado por una serie de datos vinculados entre sí para conseguir un objetivo común (Peiró, 2020). ',
+    },
+    {
+      termino: 'Tecnología:',
+      significado:
+        'Es el conjunto de conocimientos y técnicas que se aplican de manera ordenada para alcanzar un determinado objetivo o resolver un problema (Roldán, Economipedia, 2017).',
     },
     {
       termino: '<em></em>',
@@ -242,8 +289,58 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Arias, A. S. (29 de 05 de 2012). Economipedia.',
+      link: 'https://economipedia.com/definiciones/logistica.html',
+    },
+    {
+      referencia: 'Arias, E. R. (22 de 04 de 2020). Economipedia.',
+      link: 'https://economipedia.com/definiciones/costo-de-produccion.html',
+    },
+    {
+      referencia:
+        'Contabilidad, N. I. (2013). NIC 2 Inventarios. NIC 2 Inventarios.',
       link: '',
+    },
+    {
+      referencia:
+        'García, M. Pantoja, C. y Ramírez, C. (2010). Fundamentos y técnicas de costos.',
+      link:
+        'https://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/ceac/FUNDAMENTOS_Y_TECNICAS%20DE%20COSTO.pdf',
+    },
+    {
+      referencia: 'Galán, J. S. (13 de 04 de 2021). Economipedia.',
+      link: 'https://economipedia.com/definiciones/control-administrativo.html',
+    },
+    {
+      referencia:
+        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. Revista Ingeniería Industrial, 17(1), 5-22.',
+      link: '',
+    },
+    {
+      referencia: 'Peiró, R. (05 de 05 de 2020). Economipedia. ',
+      link: 'https://economipedia.com/definiciones/sistema-de-informacion.html',
+    },
+    {
+      referencia: 'Quiroa, M. (12 de 01 de 2020). Economipedia. ',
+      link: 'https://economipedia.com/definiciones/produccion.html',
+    },
+    {
+      referencia: 'Roldán, P. N. (02 de 12 de 2016).',
+      link: 'https://economipedia.com/definiciones/competitividad.html',
+    },
+    {
+      referencia: 'Roldán, P. N. (21 de 08 de 2017). Economipedia.',
+      link: 'https://economipedia.com/definiciones/tecnologia.html',
+    },
+    {
+      referencia:
+        'Vidal Holguín, C. J. (2010). Fundamentos de control y gestión de inventarios. Programa Editorial UNIVALLE.',
+      link: '',
+    },
+    {
+      referencia: 'Westreicher, G. (12 de 09 de 2020). Economipedia. ',
+      link:
+        'https://economipedia.com/definiciones/diferencia-entre-metodo-y-metodologia.html',
     },
   ],
   creditos: {

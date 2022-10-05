@@ -25,51 +25,52 @@
 
     p La Norma Internacional de Contabilidad 2 (NIC 2) cual contempla una serie de ítems a tener en cuenta a la hora de realizar los procesos contables y los cálculos de los costos de inventarios, y a su vez determina siete (7) métodos de valoración de inventarios, aunque la normatividad colombiana solo tiene en cuenta cuatro de ellos.
 
-    .row
+    .row  
       .col-lg-8
         .row
           .col-md-4
-            .bloque-texto-e.color-acento-botones.p-4.mb-4
-              .h2 Identificación específica:
+            .bloque-texto-e.color-primario.p-4.mb-4
+              .h3.text-center Identificación específica:
           .col-md-2
             img(width="60" height="60" src="@/assets/curso/temas/tema3/p1.svg", alt="Texto de la imagen" )
-          .col-md-6.mb-4.mb-md-0
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Fabricación de pocas unidades. 
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo de producción alto.
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Sus características no son intercambiables entre sí.
+          .col-md-6
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Fabricación de pocas unidades. 
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo de producción alto.
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Sus características no son intercambiables entre sí.
 
         .row
           .col-md-4
-            .bloque-texto-e.color-acento-botones.p-4.mb-4
-              .h2 PEP o FIFO:
+            .bloque-texto-e.color-primario.p-4.mb-4
+              .h3.text-center PEP o FIFO:
           .col-md-2
             img(width="60" height="60" src="@/assets/curso/temas/tema3/p2.svg", alt="Texto de la imagen" )
-          .col-md-6.mb-4.mb-md-0
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Primeras mercancías adquiridas o fabricadas, serán las primeras en ser vendidas.
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> El inventario final estará valorado con los últimos precios. 
+          .col-md-6
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Primeras mercancías adquiridas o fabricadas, serán las primeras en ser vendidas.
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> El inventario final estará valorado con los últimos precios. 
 
         .row
           .col-md-4
-            .bloque-texto-e.color-acento-botones.p-4.mb-4
-              .h2 Promedio ponderado:
+            .bloque-texto-e.color-primario.p-4.mb-4
+              .h3.text-center Promedio ponderado:
           .col-md-2
             img(width="60" height="60" src="@/assets/curso/temas/tema3/p3.svg", alt="Texto de la imagen" )
-          .col-md-6.mb-4.mb-md-0
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Método de valoración más utilizado.
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Promedia costos antiguos y actuales.
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo único para cada referencia.
+          .col-md-6
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Método de valoración más utilizado.
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Promedia costos antiguos y actuales.
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo único para cada referencia.
 
+        
         .row
           .col-md-4
-            .bloque-texto-e.color-acento-botones.p-4.mb-4
-              .h2 UEPS o LIFO:
+            .bloque-texto-e.color-primario.p-4.mb-4
+              .h3.text-center UEPS o LIFO:
           .col-md-2
             img(width="60" height="60" src="@/assets/curso/temas/tema3/p4.svg", alt="Texto de la imagen" )
-          .col-md-6.mb-4.mb-md-0
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Últimos costos son los primeros en salir. 
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Genera costos altos.
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Tiene como ventaja el pagar menos impuestos.
-            p <i class="fas fa-angle-right" STYLE="Color: red"></i> Es una metodología prohibida por la NIC 2. 
+          .col-md-6
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Últimos costos son los primeros en salir. 
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Genera costos altos.
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Tiene como ventaja el pagar menos impuestos.
+            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Es una metodología prohibida por la NIC 2. 
 
       .col-lg-4
         img(src="@/assets/curso/temas/tema3/g2.svg", alt="Texto de la imagen").banner-principal-decorativo-3

@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1(data-aos="zoom-in-left") Sistemas de información logística
+      h1 Sistemas de información logística
 
-    p(data-aos="zoom-in-left").mb-3 Las tecnologías de la Información son en la actualidad una serie de métodos y herramientas que representan un factor muy importante para las empresas para lograr ser más óptimas y eficaces en sus procesos administrativos y operativos, lo cual va a permitir compilar y transferir una información precisa de un producto o proceso.
+    p.mb-3 Las tecnologías de la Información son en la actualidad una serie de métodos y herramientas que representan un factor muy importante para las empresas para lograr ser más óptimas y eficaces en sus procesos administrativos y operativos, lo cual va a permitir compilar y transferir una información precisa de un producto o proceso.
 
     .row
       .col-md-4.mb-3
@@ -188,8 +188,10 @@
 
     #t_2_4.titulo-segundo.color-primario
       h2 2.4.	Tecnología del manejo de inventarios
-           
-    p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y softwares bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
+
+    .bloque-texto-b.color-primario.p-3 
+      .bloque-texto-b__texto        
+        p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y softwares bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
 
     .row
       .col-lg-4.mb-3

@@ -45,9 +45,22 @@
 
     .row.justify-content-center
       .col-lg-12.mb-5
-        figure
-          br
-          img(src="@/assets/curso/temas/tema1/g2.svg", alt="alt")
+        ImagenInfografica.color-acento-contenido
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/g2_v2.svg', alt='Texto que describa la imagen')
+
+          .tarjeta.color-acento-contenido.p-3(x="43%" y="12%" numero="1") 
+            p El tipo de producto que vamos a almacenar, teniendo presente el tiempo que podrá estar acaparado sin que sufra ningún daño. 
+
+          .tarjeta.color-secundario.p-3(x="58%" y="12%" numero="2") 
+            p Tener conocimiento de la proyección de la demanda para realizar un estudio sobre el proceder de estas materias primas o artículos en un futuro.
+
+          .tarjeta.color-acento-contenido.p-3(x="58%" y="70%" numero="3") 
+            p Establecer los costos de los inventarios, considerando todos los aspectos que conlleva el monitoreo de este proceso.
+
+          .tarjeta.color-secundario.p-3(x="43%" y="70%" numero="4") 
+            p Determinar la extensión del lugar donde se va a realizar el almacenamiento y así establecer la cantidad de materias primas o productos que se van a poder ordenar.
 
     Separador
 
@@ -91,18 +104,20 @@
         p Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:
       .col-lg-4
         img(src="@/assets/curso/temas/tema1/t1-3.svg", alt="")
-    
-    .tarjeta.bloque-texto-color-clausulas-azul(data-aos="fade-left")      
-          .row.justify-content-around.p-4.position-relative
-                .col-2
-                    .tarjeta.tarjeta--blanca
-                        img(src="@/assets/componentes/ej-01.svg").imagen-izquierda-tarjeta-clausulas
-                .col-10    
-                    p.bloque-texto-color-blanco La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
-                .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_2.docx')" target="_blank")
-                      span Anexo 2. Importancia de los inventarios
-                      i.fas.fa-file-download
+
+    .tarjeta.color-secundario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/ej-01.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-small La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.docx')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+
     Separador
 
     #t_1_5.titulo-segundo.color-primario
@@ -116,17 +131,18 @@
             img(src='@/assets/curso/temas/tema1/t1-5.svg', alt='Texto que describa la imagen')
     br
 
-    .tarjeta.bloque-texto-color-clausulas-amarilla(data-aos="fade-left")      
-          .row.justify-content-around.p-4.position-relative
-                .col-2
-                    .tarjeta.tarjeta--blanca
-                        img(src="@/assets/componentes/ej-02.svg").imagen-izquierda-tarjeta-clausulas
-                .col-10    
-                    p.bloque-texto-color-negro Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento. 
-                .col-sm-auto
-                    a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_3.docx')" target="_blank")
-                      span Anexo 3. Tipos de métodos de control de inventarios
-                      i.fas.fa-file-download
+    .tarjeta.color-primario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/ej-02.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-small Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento.  
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3.docx')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
 </template>
 
