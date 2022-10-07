@@ -193,26 +193,31 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
+        desarrolloContenidos: true,
       },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+        desarrolloContenidos: true,
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
+        desarrolloContenidos: true,
       },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
+        desarrolloContenidos: true,
       },
     ],
   },
@@ -243,48 +248,44 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Costo:',
+      termino: 'Costo',
       significado:
         'El costo de producción (o costo de operación) es el gasto necesario para fabricar un bien o para generar un servicio. (Arias E. R., 2020)',
     },
     {
-      termino: 'Competitividad:',
+      termino: 'Competitividad',
       significado:
         'La capacidad de una persona u organización para desarrollar ventajas competitivas con respecto a sus competidores (Roldán, Economipedia, 2016).',
     },
     {
-      termino: 'Control:',
+      termino: 'Control',
       significado:
         'Etapa de la gestión administrativa que se refiere a la evaluación de procesos y del rendimiento administrativo, así como de la identificación de desviaciones y posibles anomalías. (Galán, 2021).',
     },
     {
-      termino: 'Inventario:',
+      termino: 'Inventario',
       significado:
         'Es el registro de los bienes que pertenecen a una persona natural o jurídica. Así, queda constancia de una serie de activos u objetos (Westreicher, Economipedia, 2020).',
     },
     {
-      termino: 'Logística::',
+      termino: 'Logística',
       significado:
         'Son todas las operaciones llevadas a cabo para hacer posible que un producto llegue al consumidor desde el lugar donde se obtienen las materias primas, pasando por el lugar de su producción (Arias A. S., 2012).',
     },
     {
-      termino: 'Producción:',
+      termino: 'Producción',
       significado:
         'Es la actividad económica que se encarga de transformar los insumos para convertirlos en productos (Quiroa, 2020).',
     },
     {
-      termino: 'Sistema:',
+      termino: 'Sistema',
       significado:
-        'Está conformado por una serie de datos vinculados entre sí para conseguir un objetivo común (Peiró, 2020). ',
+        'Está conformado por una serie de datos vinculados entre sí para conseguir un objetivo común (Peiró, 2020).',
     },
     {
-      termino: 'Tecnología:',
+      termino: 'Tecnología',
       significado:
         'Es el conjunto de conocimientos y técnicas que se aplican de manera ordenada para alcanzar un determinado objetivo o resolver un problema (Roldán, Economipedia, 2017).',
-    },
-    {
-      termino: '<em></em>',
-      significado: '',
     },
   ],
   referencias: [

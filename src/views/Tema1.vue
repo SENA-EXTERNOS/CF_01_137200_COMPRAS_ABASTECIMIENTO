@@ -50,16 +50,16 @@
             figure
               img(src='@/assets/curso/temas/tema1/g2_v2.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-contenido.p-3(x="43%" y="12%" numero="1") 
+          .tarjeta.color-acento-contenido.p-3(x="43%" y="12%" numero="") 
             p El tipo de producto que vamos a almacenar, teniendo presente el tiempo que podrá estar acaparado sin que sufra ningún daño. 
 
-          .tarjeta.color-secundario.p-3(x="58%" y="12%" numero="2") 
+          .tarjeta.color-secundario.p-3(x="58%" y="12%" numero="") 
             p Tener conocimiento de la proyección de la demanda para realizar un estudio sobre el proceder de estas materias primas o artículos en un futuro.
 
-          .tarjeta.color-acento-contenido.p-3(x="58%" y="70%" numero="3") 
+          .tarjeta.color-acento-contenido.p-3(x="58%" y="70%" numero="") 
             p Establecer los costos de los inventarios, considerando todos los aspectos que conlleva el monitoreo de este proceso.
 
-          .tarjeta.color-secundario.p-3(x="43%" y="70%" numero="4") 
+          .tarjeta.color-secundario.p-3(x="43%" y="70%" numero="") 
             p Determinar la extensión del lugar donde se va a realizar el almacenamiento y así establecer la cantidad de materias primas o productos que se van a poder ordenar.
 
     Separador
