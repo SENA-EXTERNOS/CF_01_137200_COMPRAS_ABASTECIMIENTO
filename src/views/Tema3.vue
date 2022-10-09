@@ -24,56 +24,109 @@
       h2 3.1	Tipos de métodos
 
     p La Norma Internacional de Contabilidad 2 (NIC 2) cual contempla una serie de ítems a tener en cuenta a la hora de realizar los procesos contables y los cálculos de los costos de inventarios, y a su vez determina siete (7) métodos de valoración de inventarios, aunque la normatividad colombiana solo tiene en cuenta cuatro de ellos.
+    br
+    .row.justify-content-center
+      .col-lg-8 
+        .tarjeta--container.row.mb-3
+          .col-md-3.tarjeta.color-primario.pl-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure
+              br
+              h3.text-center Identificación específica:
+              
+          
+          .col-md-3.tarjeta.color-acento-botones-neutro.p-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure              
+              img(width="80" height="80" src="@/assets/curso/temas/tema3/p1.svg", alt="Texto de la imagen" )
+              
+          
+          .col-md-6.tarjeta.color-acento-botones-neutro.col-md-3.tarjeta.color-acento-botones-neutro.text-white.p-7
+            .row.justify-content-center.mb-2
+              .col-lg-6
+                figure
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Fabricación de pocas unidades. 
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Costo de producción alto.
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Sus características no son intercambiables entre sí.
 
-    .row  
-      .col-lg-8
-        .row
-          .col-md-4
-            .bloque-texto-e.color-primario.p-4.mb-4
-              .h3.text-center Identificación específica:
-          .col-md-2
-            img(width="60" height="60" src="@/assets/curso/temas/tema3/p1.svg", alt="Texto de la imagen" )
-          .col-md-6
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Fabricación de pocas unidades. 
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo de producción alto.
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Sus características no son intercambiables entre sí.
+            
+        .tarjeta--container.row.mb-3
+          .col-md-3.tarjeta.color-primario.pl-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure
+              br
+              h3.text-center PEP o FIFO:  
+              
+          
+          .col-md-3.tarjeta.color-acento-botones-neutro.p-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure              
+              img(width="80" height="80" src="@/assets/curso/temas/tema3/p2.svg", alt="Texto de la imagen" )
 
-        .row
-          .col-md-4
-            .bloque-texto-e.color-primario.p-4.mb-4
-              .h3.text-center PEP o FIFO:
-          .col-md-2
-            img(width="60" height="60" src="@/assets/curso/temas/tema3/p2.svg", alt="Texto de la imagen" )
-          .col-md-6
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Primeras mercancías adquiridas o fabricadas, serán las primeras en ser vendidas.
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> El inventario final estará valorado con los últimos precios. 
+          .col-md-6.tarjeta.color-acento-botones-neutro.col-md-3.tarjeta.color-acento-botones-neutro.text-white.p-7
+            .row.justify-content-center.mb-2
+              .col-lg-6
+                figure
+                
+              p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Primeras mercancías adquiridas o fabricadas, serán las primeras en ser vendidas.
+              p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> El inventario final estará valorado con los últimos precios. 
+              
+            
+        .tarjeta--container.row.mb-3
+          .col-md-3.tarjeta.color-primario.pl-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure
+              br
+              h3.text-center Promedio ponderado:
+          
+          .col-md-3.tarjeta.color-acento-botones-neutro.p-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure              
+              img(width="80" height="80" src="@/assets/curso/temas/tema3/p3.svg", alt="Texto de la imagen")
+              
+          
+          .col-md-6.tarjeta.color-acento-botones-neutro.col-md-3.tarjeta.color-acento-botones-neutro.text-white.p-7
+            .row.justify-content-center.mb-2
+              .col-lg-6
+                figure 
 
-        .row
-          .col-md-4
-            .bloque-texto-e.color-primario.p-4.mb-4
-              .h3.text-center Promedio ponderado:
-          .col-md-2
-            img(width="60" height="60" src="@/assets/curso/temas/tema3/p3.svg", alt="Texto de la imagen" )
-          .col-md-6
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Método de valoración más utilizado.
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Promedia costos antiguos y actuales.
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Costo único para cada referencia.
-
-        
-        .row
-          .col-md-4
-            .bloque-texto-e.color-primario.p-4.mb-4
-              .h3.text-center UEPS o LIFO:
-          .col-md-2
-            img(width="60" height="60" src="@/assets/curso/temas/tema3/p4.svg", alt="Texto de la imagen" )
-          .col-md-6
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Últimos costos son los primeros en salir. 
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Genera costos altos.
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Tiene como ventaja el pagar menos impuestos.
-            p.mb-0 <i class="fas fa-angle-right" STYLE="Color: red"></i> Es una metodología prohibida por la NIC 2. 
-
-      .col-lg-4
-        img(src="@/assets/curso/temas/tema3/g2.svg", alt="Texto de la imagen").banner-principal-decorativo-3
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Promedia costos antiguos y actuales.
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Costo único para cada referencia.
+            
+        .tarjeta--container.row.mb-3
+          .col-md-3.tarjeta.color-primario.pl-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure
+              br  
+              h3.text-center UEPS o LIFO:
+          
+          .col-md-3.tarjeta.color-acento-botones-neutro.p-2
+            .row.justify-content-center.mb-2
+              .col-lg-3
+                figure              
+              img(width="80" height="80" src="@/assets/curso/temas/tema3/p4.svg", alt="Texto de la imagen")
+              
+          
+          .col-md-6.tarjeta.color-acento-botones-neutro.col-md-3.tarjeta.color-acento-botones-neutro.text-white.p-7
+            .row.justify-content-center.mb-2
+              .col-lg-6
+                figure
+                
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Últimos costos son los primeros en salir. 
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Genera costos altos.
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Tiene como ventaja el pagar menos impuestos.
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Es una metodología prohibida por la NIC 2.
+             
+      .col-lg-4 
+        figure
+          img(src="@/assets/curso/temas/tema3/g2.svg", alt="Texto de la imagen").banner-principal-decorativo-3
     
     Separador
 
@@ -81,9 +134,9 @@
       h2 3.2.	Metodologías para la medición de existencias y el manejo de inventarios
 
     .row
-      .col-3
+      .col-lg-3
         img(src="@/assets/curso/temas/tema3/g3.svg", alt="Texto de la imagen")
-      .col-9
+      .col-lg-9
         p La gestión logística y de inventarios juega un papel fundamental al interior de la empresa, inclusive en algunas el control de los mismos es prioritario debido a que desde allí se logra optimizar una serie de recursos representan costos monetarios, al tiempo que reducirán los desperdicios de materias primas, productos y dinero. Cuando se desea aumentar la productividad se debe recurrir al uso de tecnologías, las cuales nos ayudarán a automatizar los procesos y brindan información relevante como una serie de indicadores que evidencian cuáles han sido los comportamientos en temas de entradas y salidas de mercancías. 
         | La medición de existencias las podemos llevar a cabo con metodologías de cálculo o softwares que tengan en cuenta los volúmenes de mercancía de acuerdo a los inventarios, la ocupación del lugar donde se almacenan las mercancías y los costos operacionales. Al momento de emplear este tipo de tecnologías o metodologías, será mucho más fácil hallar los cálculos que sean necesarios para el manejo y medición de los inventarios, que permitan analizar toda esta información para llegar a tomar decisiones.
 
@@ -104,16 +157,34 @@
           tbody
             tr
               td.col-lg-12 
-                  img(src="@/assets/curso/temas/tema3/t3-3-p1.png", alt="Texto de la imagen")
+                .tarjeta-np.tarjeta-slide.izquierda.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+                  .tarjeta-slide__contenedor
+                    .tarjeta-slide__img-np
+                      br
+                      br
+                      br
+                      img(width="150" height="150" src="@/assets/curso/temas/tema3/h1.svg", alt="Texto de la imagen")
+                    .tarjeta-slide__contenido
+                      figure 
+                        img(src="@/assets/curso/temas/tema3/t3-3-p1.png", alt="Texto de la imagen")
               td.col-lg-12
-                  img(src="@/assets/curso/temas/tema3/t3-3-p2.png", alt="Texto de la imagen")
+                .tarjeta-np.tarjeta-slide.derecha.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+                    .tarjeta-slide__contenedor
+                      .tarjeta-slide__img-np
+                        br
+                        br
+                        br
+                        img(width="150" height="150" src="@/assets/curso/temas/tema3/h2.svg", alt="Texto de la imagen")
+                      .tarjeta-slide__contenido
+                        figure 
+                          img(src="@/assets/curso/temas/tema3/t3-3-p2.png", alt="Texto de la imagen")
           tfoot
             tr
               td.col-lg-12 
                   p Cuando hacemos referencia al sistema de revisión periódico se refiere a esa vigilancia que se le realiza a los artículos o materias primas, las cuales se les practicarán en tiempos equivalentes, ya sea semana a semana, mes a mes, trimestre a trimestre, etc. Lo que quiere decir que hasta no terminar ese lapso de tiempo, no se podrá realizar nuevos pedidos a proveedores.
               td.col-lg-12
                   p En este tipo de revisión, la inspección de las mercancías se realiza de manera permanente y seguida. Cada que se tiene información de una compra o de una orden de producción en el software, inmediatamente se debe realizar la revisión del inventario.
-
+      
 </template>
 
 <script>
@@ -122,7 +193,7 @@ export default {
   name: 'Tema3',
   components: { Separador },
   data: () => ({
-    // variables de vue
+    indicadorTarjetaSlide: true,
   }),
   mounted() {
     this.$nextTick(() => {

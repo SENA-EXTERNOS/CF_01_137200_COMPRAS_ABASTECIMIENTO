@@ -21,7 +21,7 @@
     p Dentro de los tipos de costos tenemos: adquisición y aprovisionamiento, mantenimiento y almacenamiento, y costos administrativos.
 
     .row.mt-5
-      TabsC.color-primario
+      TabsC.color-secundario
         .py-3.py-md-4(titulo="Costos de aprovisionamiento")
           .row
             .col-md-4

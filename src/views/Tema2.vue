@@ -198,39 +198,34 @@
         img(src="@/assets/curso/temas/tema2/g5.svg", alt="Texto de la imagen").banner-principal-decorativo-3
       .col-lg-8.mb-3
         p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene los producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
+    br
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta--boton.color-primario.text-black.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema2/t1.png', alt='Texto que describa la imagen')
+          
+        h2.text-center Tecnología RFID
+        p Es un sistema que funciona a través de etiquetas, las cuales contienen unas antenas receptoras y transmisoras de información por medio de radiofrecuencias que, al adherirse en los productos, permiten conocer su ubicación.
+      .col-md.tarjeta--boton.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema2/t2.png', alt='Texto que describa la imagen')
+          
+        h2.text-center Picking por voz
+        p Es una metodología bastante empleada hoy en día en diferentes almacenes y bodegas, donde sus colaboradores cuentan con unos auriculares con micrófono que van conectados a un dispositivo móvil, por medio de los cuales brindan las instrucciones.
+      .col-md.tarjeta--boton.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema2/t3.png', alt='Texto que describa la imagen')
+          
+        h2.text-center Modelos de pronósticos
+        p Existen unos programas o software que retienen información de datos históricos  y por medio de algoritmos estadísticos realizan proyecciones que le van permitan a las personas encargadas planificar y tomar decisiones pertinentes.
 
 
-    .row.mb-5
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/t1.png', alt='Texto que describa la imagen')
-
-          h3.text-center Tecnología RFID
-          p.text-small Es un sistema que funciona a través de etiquetas, las cuales contienen unas antenas receptoras y transmisoras de información por medio de radiofrecuencias que, al adherirse en los productos, permiten conocer su ubicación.
-
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/t2.png', alt='Texto que describa la imagen')
-
-          h3.text-center Picking por voz
-          p.text-small Es una metodología bastante empleada hoy en día en diferentes almacenes y bodegas, donde sus colaboradores cuentan con unos auriculares con micrófono que van conectados a un dispositivo móvil, por medio de los cuales brindan las instrucciones.
-
-      .col-sm-6.col-lg-4.mb-4.mb-sm-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema2/t3.png', alt='Texto que describa la imagen')
-
-          h3.text-center Modelos de pronósticos
-          p.text-small Existen unos programas o software que retienen información de datos históricos  y por medio de algoritmos estadísticos realizan proyecciones que le van permitan a las personas encargadas planificar y tomar decisiones pertinentes.
- 
 </template>
 
 <script>
