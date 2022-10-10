@@ -157,9 +157,9 @@
           tbody
             tr
               td.col-lg-12 
-                .tarjeta-np.tarjeta-slide.izquierda.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+                .tarjeta-np.tarjeta-slide.izquierda.color-secundario-2(@mouseover="indicadorTarjetaSlide = false")
                   .tarjeta-slide__contenedor
-                    .tarjeta-slide__img-np
+                    .tarjeta-slide__img
                       br
                       br
                       br
@@ -168,9 +168,9 @@
                       figure 
                         img(src="@/assets/curso/temas/tema3/t3-3-p1.png", alt="Texto de la imagen")
               td.col-lg-12
-                .tarjeta-np.tarjeta-slide.derecha.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+                .tarjeta-np.tarjeta-slide.derecha.color-secundario-2(@mouseover="indicadorTarjetaSlide = false")
                     .tarjeta-slide__contenedor
-                      .tarjeta-slide__img-np
+                      .tarjeta-slide__img
                         br
                         br
                         br
