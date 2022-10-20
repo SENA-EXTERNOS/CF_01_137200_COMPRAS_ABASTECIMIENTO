@@ -28,7 +28,7 @@
                 p.mb-0 Es el cálculo en cuanto a tiempos desde que se tiene la necesidad de adquirir la mercancía hasta que llega a la empresa. También aplica para el proceso de producción y se da desde el momento que se brinda una orden, hasta el momento en que se da inicio a la misma.
             .row(titulo="Costos")
               .col-12
-                p.mb-0 Los inventarios representan una serie de gastos para su manejo, es aquí donde se tienen en cuenta costos operativos como lo son los almacenes, softwares, mantenimientos, penalizaciones adquisiciones de materias primas, etc.
+                p.mb-0 Los inventarios representan una serie de gastos para su manejo, es aquí donde se tienen en cuenta costos operativos como lo son los almacenes, #[i softwares], mantenimientos, penalizaciones adquisiciones de materias primas, etc.
   
     Separador
 
@@ -89,7 +89,7 @@
         img(src="@/assets/curso/temas/tema1/t1-4.svg", alt="").banner-principal-decorativo-3
       .col-lg-11
         p Un sistema de reposición tiene como objetivo que las empresas, ya sean distribuidores, pymes o industrias, tengan un buen flujo de ventas o de producción, donde siempre se cuente con las materias primas necesarias para los procesos productivos, o en el caso de las compañías comerciales que siempre tengan el artículo que el cliente está solicitando para así lograr una relación armónica y cumplir con sus necesidades y expectativas.
-        | Empleando un sistema de reposición de inventarios todo será más sencillo, ya que allí estará importada toda la información relacionada con ventas, materias primas, insumos, compras, entradas, salidas, entre otros, por lo cual este software sabrá cuándo se deberá realizar un reabastecimiento, solicitar insumos a los proveedores, productos que están agotados o a punto de agotarse, artículos que llevan cierta cantidad de tiempo almacenados.
+        | Empleando un sistema de reposición de inventarios todo será más sencillo, ya que allí estará importada toda la información relacionada con ventas, materias primas, insumos, compras, entradas, salidas, entre otros, por lo cual este #[i software] sabrá cuándo se deberá realizar un reabastecimiento, solicitar insumos a los proveedores, productos que están agotados o a punto de agotarse, artículos que llevan cierta cantidad de tiempo almacenados.
 
     Separador
 
@@ -100,23 +100,25 @@
       .col-lg-8
         p Los inventarios son de suma importancia en las empresas industriales, distribuidoras, pymes y todas aquellas que tengan por actividad económica la compra y venta de bienes o servicios. Cada uno de estos bienes, productos, servicios y materias primas deberán estar ordenadas, caracterizadas y cualificadas para lograr ser organizadas en los almacenes y así la empresa saber cuál es su patrimonio y en base a esto planificar sus estrategias de producción y ventas.
         p El proceso de inventarios también incluye o aporta beneficios en el área logística de la empresa debido a que son dos departamentos que deben de trabajar en conjunto para conseguir una correcta gestión de funciones de almacenamiento y distribución para cumplir con la demanda proyectada.
-        p La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas.
-        p Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:
       .col-lg-4
         img(src="@/assets/curso/temas/tema1/t1-3.svg", alt="")
 
-    .tarjeta.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ej-01.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.docx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row
+      .col-lg-1
+      .col-lg-10
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/ej-01.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small La importancia de implementar el control de inventarios en las empresas radica en que pueden sacar provecho en la incursión de las economías a escala, la cual consiste en fabricar una mayor cantidad de productos a un menor costo, esto gracias a la buena gestión de los inventarios que permiten tener un buen almacenamiento de materias primas. Si desea profundizar en el tema Importancia de los inventarios, descargue el siguiente documento:  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2.docx')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-1
 
     Separador
 
@@ -131,18 +133,22 @@
             img(src='@/assets/curso/temas/tema1/t1-5.svg', alt='Texto que describa la imagen')
     br
 
-    .tarjeta.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/componentes/ej-02.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento.  
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3.docx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row
+      .col-lg-1
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/ej-02.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small Existen algunos tipos de métodos para el control de inventarios, para profundizar en el tema descargue el siguiente documento.  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3.docx')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-1
 
 </template>
 

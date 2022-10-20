@@ -43,7 +43,7 @@
       .col-md-8.p-3
         .bloque-texto-b.color-primario.p-3 
           .bloque-texto-b__texto 
-            p.mb-3 Emplear sistemas de información logística permitirá obtener un gran flujo de datos suministrados por los stakeholders de la organización, los cuales servirán para tomar decisiones, establecer un control y lograr una mejora continua respecto de los procesos logísticos, productivos y de inventarios.
+            p.mb-3 Emplear sistemas de información logística permitirá obtener un gran flujo de datos suministrados por los #[i stakeholders] de la organización, los cuales servirán para tomar decisiones, establecer un control y lograr una mejora continua respecto de los procesos logísticos, productivos y de inventarios.
             br
             br
             p.mb-3 Los sistemas de información logística están clasificados de acuerdo a las actividades o tareas que desarrolla, esto dependerá del proceso al cual se le quiera aplicar este tipo de tecnología. Por ejemplo, si la empresa necesita un SIL para desarrollar inconvenientes de varias áreas de la organización deberá emplear un programa horizontal, pero si se requiere desplegar ciertas actividades determinadas en un mismo departamento, se deberá acudir a un sistema vertical. 
@@ -67,7 +67,7 @@
       .col-lg-2.mb-3
         img(src="@/assets/curso/temas/tema2/g3.svg", alt="Texto de la imagen")
       .col-lg-10.mb-3           
-        p El uso de las tecnologías se ha vuelto una práctica indispensable en la vida diaria de las personas debido a las diferentes opciones que nos ofrece la internet y, por ende, las redes sociales, las cuales facilitan la comunicación con las demás personas y la interacción entre ellas. En cuanto a la parte comercial, las RRSS son de vital importancia en la actualidad ya que estos medios han visto la necesidad de incursionar y de brindar esa herramienta a sus usuarios, llegando a tal punto de ofrecer secciones de Marketplace, creación de páginas y usuarios empresariales lo cual permite realizar propuestas a sus clientes a nivel mundial gracias a la globalización.
+        p El uso de las tecnologías se ha vuelto una práctica indispensable en la vida diaria de las personas debido a las diferentes opciones que nos ofrece la internet y, por ende, las redes sociales, las cuales facilitan la comunicación con las demás personas y la interacción entre ellas. En cuanto a la parte comercial, las RRSS son de vital importancia en la actualidad ya que estos medios han visto la necesidad de incursionar y de brindar esa herramienta a sus usuarios, llegando a tal punto de ofrecer secciones de #[i Marketplace], creación de páginas y usuarios empresariales lo cual permite realizar propuestas a sus clientes a nivel mundial gracias a la globalización.
         p En el ámbito empresarial e industrial, la tecnología ha beneficiado considerablemente a las organizaciones en cada una de las fases de sus procesos productivos y administrativos; desde el instante en que se solicitan las materias primas e insumos, cuando se da inicio a los procesos de diseño y producción y por último en las estrategias tecnológicas que van a emplear en la comercialización de los productos o servicios.
 
     .bloque-texto-f.bloque-color-azul.p-4.p-5.mb-6
@@ -191,7 +191,7 @@
 
     .bloque-texto-b.color-primario.p-3 
       .bloque-texto-b__texto        
-        p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y softwares bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
+        p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y #[i softwares] bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
 
     .row
       .col-lg-4.mb-3
@@ -207,15 +207,15 @@
               img(src='@/assets/curso/temas/tema2/t1.png', alt='Texto que describa la imagen')
           
         h2.text-center Tecnología RFID
-        p Es un sistema que funciona a través de etiquetas, las cuales contienen unas antenas receptoras y transmisoras de información por medio de radiofrecuencias que, al adherirse en los productos, permiten conocer su ubicación.
+        p.text-center Es un sistema que funciona a través de etiquetas, las cuales contienen unas antenas receptoras y transmisoras de información por medio de radiofrecuencias que, al adherirse en los productos, permiten conocer su ubicación.
       .col-md.tarjeta--boton.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema2/t2.png', alt='Texto que describa la imagen')
           
-        h2.text-center Picking por voz
-        p Es una metodología bastante empleada hoy en día en diferentes almacenes y bodegas, donde sus colaboradores cuentan con unos auriculares con micrófono que van conectados a un dispositivo móvil, por medio de los cuales brindan las instrucciones.
+        h2.text-center #[i Picking] por voz
+        p.text-center Es una metodología bastante empleada hoy en día en diferentes almacenes y bodegas, donde sus colaboradores cuentan con unos auriculares con micrófono que van conectados a un dispositivo móvil, por medio de los cuales brindan las instrucciones.
       .col-md.tarjeta--boton.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
@@ -223,7 +223,7 @@
               img(src='@/assets/curso/temas/tema2/t3.png', alt='Texto que describa la imagen')
           
         h2.text-center Modelos de pronósticos
-        p Existen unos programas o software que retienen información de datos históricos  y por medio de algoritmos estadísticos realizan proyecciones que le van permitan a las personas encargadas planificar y tomar decisiones pertinentes.
+        p.text-center Existen unos programas o #[i software] que retienen información de datos históricos  y por medio de algoritmos estadísticos realizan proyecciones que le van permitan a las personas encargadas planificar y tomar decisiones pertinentes.
 
 
 </template>

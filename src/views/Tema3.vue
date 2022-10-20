@@ -11,7 +11,7 @@
       .col-11
         p Según García, Pantoja y en el #[i libro Fundamentos y técnicas de costos (2010)], la evaluación de los inventarios es un proceso determinado y formulado por las personas encargadas del control de la empresa. El diseño de la valoración permitirá obtener el valor real en términos monetarios de la cantidad total de cada uno de los productos que allí se encuentran acaparados. Existen tres métodos principales para el planteamiento de la evaluación: identificación específica, Primeras en Entrar, Primeras en Salir (PEPS o FIFO), Método de costo promedio y Últimas en Entrar Primeras en Salir (LIFO o UEPS). 
       .col-1
-        img(src="@/assets/curso/temas/tema3/g1.svg", alt="Texto de la imagen").banner-principal-decorativo-3
+        img(src="@/assets/curso/temas/tema3/g1.svg", alt="Texto de la imagen").banner-principal-decorativo-3 
 
     figure
       .video
@@ -96,6 +96,7 @@
               .col-lg-6
                 figure 
 
+            p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Método de valoración más utilizado.
             p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Promedia costos antiguos y actuales.
             p.texto-color-negro.mb-0 <i class="fas fa-angle-right"></i> Costo único para cada referencia.
             
@@ -138,7 +139,7 @@
         img(src="@/assets/curso/temas/tema3/g3.svg", alt="Texto de la imagen")
       .col-lg-9
         p La gestión logística y de inventarios juega un papel fundamental al interior de la empresa, inclusive en algunas el control de los mismos es prioritario debido a que desde allí se logra optimizar una serie de recursos representan costos monetarios, al tiempo que reducirán los desperdicios de materias primas, productos y dinero. Cuando se desea aumentar la productividad se debe recurrir al uso de tecnologías, las cuales nos ayudarán a automatizar los procesos y brindan información relevante como una serie de indicadores que evidencian cuáles han sido los comportamientos en temas de entradas y salidas de mercancías. 
-        | La medición de existencias las podemos llevar a cabo con metodologías de cálculo o softwares que tengan en cuenta los volúmenes de mercancía de acuerdo a los inventarios, la ocupación del lugar donde se almacenan las mercancías y los costos operacionales. Al momento de emplear este tipo de tecnologías o metodologías, será mucho más fácil hallar los cálculos que sean necesarios para el manejo y medición de los inventarios, que permitan analizar toda esta información para llegar a tomar decisiones.
+        | La medición de existencias las podemos llevar a cabo con metodologías de cálculo o #[i softwares] que tengan en cuenta los volúmenes de mercancía de acuerdo a los inventarios, la ocupación del lugar donde se almacenan las mercancías y los costos operacionales. Al momento de emplear este tipo de tecnologías o metodologías, será mucho más fácil hallar los cálculos que sean necesarios para el manejo y medición de los inventarios, que permitan analizar toda esta información para llegar a tomar decisiones.
 
     Separador
     
@@ -183,7 +184,7 @@
               td.col-lg-12 
                   p Cuando hacemos referencia al sistema de revisión periódico se refiere a esa vigilancia que se le realiza a los artículos o materias primas, las cuales se les practicarán en tiempos equivalentes, ya sea semana a semana, mes a mes, trimestre a trimestre, etc. Lo que quiere decir que hasta no terminar ese lapso de tiempo, no se podrá realizar nuevos pedidos a proveedores.
               td.col-lg-12
-                  p En este tipo de revisión, la inspección de las mercancías se realiza de manera permanente y seguida. Cada que se tiene información de una compra o de una orden de producción en el software, inmediatamente se debe realizar la revisión del inventario.
+                  p En este tipo de revisión, la inspección de las mercancías se realiza de manera permanente y seguida. Cada que se tiene información de una compra o de una orden de producción en el #[i software], inmediatamente se debe realizar la revisión del inventario.
       
 </template>
 

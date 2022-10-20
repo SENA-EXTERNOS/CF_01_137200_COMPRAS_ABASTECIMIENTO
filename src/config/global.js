@@ -146,7 +146,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Costos relacionados con el stock',
+            titulo: 'Costos relacionados con el <em>stock</em>',
             hash: 't_3_2',
           },
           {
@@ -225,7 +225,7 @@ export default {
     {
       tema: 'Fundamentos de control y gestión de inventarios',
       referencia:
-        'Vidal Holguín, C. J. (2010). Fundamentos de control y gestión de inventarios. Programa Editorial UNIVALLE.',
+        '<em>Vidal Holguín, C. J. (2010). Fundamentos de control y gestión de inventarios. Programa Editorial UNIVALLE.</em>',
       tipo: 'Libro',
       link:
         'https://books.google.es/books?hl=es&lr=&id=IRPmDwAAQBAJ&oi=fnd&pg=PA11&dq=gesti%C3%B3n+de+inventarios&ots=jzfHxLumMN&sig=ZWfCP8jcJGf-PVIoZxUklt22SAE',
@@ -233,14 +233,14 @@ export default {
     {
       tema: 'Política de inventarios',
       referencia:
-        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. Revista Ingeniería Industrial, 17(1), 5-22.',
+        '<em>Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. Revista Ingeniería Industrial, 17(1), 5-22.</em>',
       tipo: 'PDF',
       descarga: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7047360',
     },
     {
       tema: 'NIC 2',
       referencia:
-        'Contabilidad, N. I. (2013). NIC 2 Inventarios. NIC 2 Inventarios.',
+        '<em>Contabilidad, N. I. (2013). NIC 2 Inventarios. NIC 2 Inventarios.</em>',
       tipo: 'PDF',
       descarga:
         'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_NC_2.pdf',
@@ -290,16 +290,16 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Arias, A. S. (29 de 05 de 2012). Economipedia.',
+      referencia: 'Arias, A. S. (29 de 05 de 2012). <em>Economipedia.</em>',
       link: 'https://economipedia.com/definiciones/logistica.html',
     },
     {
-      referencia: 'Arias, E. R. (22 de 04 de 2020). Economipedia.',
+      referencia: 'Arias, E. R. (22 de 04 de 2020). <em>Economipedia.</em>',
       link: 'https://economipedia.com/definiciones/costo-de-produccion.html',
     },
     {
       referencia:
-        'Contabilidad, N. I. (2013). NIC 2 Inventarios. NIC 2 Inventarios.',
+        'Contabilidad, N. I. (2013). NIC 2 <em>Inventarios.</em> NIC 2 Inventarios.',
       link: '',
     },
     {
@@ -309,20 +309,20 @@ export default {
         'https://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/ceac/FUNDAMENTOS_Y_TECNICAS%20DE%20COSTO.pdf',
     },
     {
-      referencia: 'Galán, J. S. (13 de 04 de 2021). Economipedia.',
+      referencia: 'Galán, J. S. (13 de 04 de 2021). <em>Economipedia.</em>',
       link: 'https://economipedia.com/definiciones/control-administrativo.html',
     },
     {
       referencia:
-        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. Revista Ingeniería Industrial, 17(1), 5-22.',
+        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). <em>Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción.</em> Revista Ingeniería Industrial, 17(1), 5-22.',
       link: '',
     },
     {
-      referencia: 'Peiró, R. (05 de 05 de 2020). Economipedia. ',
+      referencia: 'Peiró, R. (05 de 05 de 2020). <em>Economipedia.</em> ',
       link: 'https://economipedia.com/definiciones/sistema-de-informacion.html',
     },
     {
-      referencia: 'Quiroa, M. (12 de 01 de 2020). Economipedia. ',
+      referencia: 'Quiroa, M. (12 de 01 de 2020). <em>Economipedia.</em>',
       link: 'https://economipedia.com/definiciones/produccion.html',
     },
     {
@@ -330,7 +330,7 @@ export default {
       link: 'https://economipedia.com/definiciones/competitividad.html',
     },
     {
-      referencia: 'Roldán, P. N. (21 de 08 de 2017). Economipedia.',
+      referencia: 'Roldán, P. N. (21 de 08 de 2017). <em>Economipedia.</em>',
       link: 'https://economipedia.com/definiciones/tecnologia.html',
     },
     {
@@ -339,7 +339,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Westreicher, G. (12 de 09 de 2020). Economipedia. ',
+      referencia: 'Westreicher, G. (12 de 09 de 2020). <em>Economipedia.</em>',
       link:
         'https://economipedia.com/definiciones/diferencia-entre-metodo-y-metodologia.html',
     },

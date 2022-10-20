@@ -11,7 +11,7 @@
       .col-lg-3
         img(src="@/assets/curso/temas/tema4/g1.svg", alt="Texto de la imagen").banner-principal-decorativo-3
       .col-lg-9
-        p Anteriormente evidenciamos la importancia de realizar una buena gestión de inventarios para mejorar la producción y rentabilidad de una empresa, pero también debemos conocer que el realizar este tipo de procesos conlleva una serie de costos que deben de ser aplicados en cada una de las fases, bien sea en la adquisición de materias primas, almacenamiento o producción, entre otros.  
+        p Anteriormente evidenciamos la importancia de realizar una buena gestión de inventarios para mejorar la producción y rentabilidad de una empresa, pero también debemos conocer que el realizar este tipo de procesos conlleva una serie de costos que deben de ser aplicados en cada una de las fases, bien sea en la adquisición de materias primas, almacenamiento o producción, entre otros. Estos se dividen en dos: costos fijos y costos variables. Es por esto que se debe hacer una buena planificación y estrategia en los inventarios para lograr minimizar todos los gastos que esta metodología proporciona. 
 
     Separador
     
@@ -66,14 +66,14 @@
     Separador
     
     #t_4_2.titulo-segundo.color-primario
-      h2 4.2.	Costos relacionados con el stock
+      h2 4.2.	Costos relacionados con el #[i stock]
 
     .row 
       .col-lg-4
         img(src='@/assets/curso/temas/tema4/g5.svg', alt='Texto que describa la imagen')
       .col-lg-8
         .cajon-b.color-primario.p-3.mb-5
-          p.mb-0 Para lograr una buena gestión del stock y los inventarios es importante que las empresas tengan en cuenta y planifiquen los costos que este proceso conlleva. A esta fase hay que aportar todos los conocimientos, requerimiento e inversiones debido a que dicha estrategia ayudará a las empresas a ser mucho más productivas y competitivas en el mercado, logrando optimizar muchos recursos que al final van a representar utilidades. Los costos que se deben tener en cuenta son los de: adquisición, pedido, almacenamiento y ruptura.
+          p.mb-0 Para lograr una buena gestión del #[i stock] y los inventarios es importante que las empresas tengan en cuenta y planifiquen los costos que este proceso conlleva. A esta fase hay que aportar todos los conocimientos, requerimiento e inversiones debido a que dicha estrategia ayudará a las empresas a ser mucho más productivas y competitivas en el mercado, logrando optimizar muchos recursos que al final van a representar utilidades. Los costos que se deben tener en cuenta son los de: adquisición, pedido, almacenamiento y ruptura.
 
     Separador
     
@@ -85,18 +85,23 @@
         p Los costes de los pedidos abarcan una serie de factores que están asociados a todo el proceso de adquisición de materias primas, almacenamiento, producción y venta. Este tipo de sistema se da cuando un determinado cliente ordena un pedido con ciertas características y cantidades. 
     br
 
-    .tarjeta.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/mini.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_4.docx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row
+      .col-lg-1
+      .col-lg-10
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema4/mini.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
+                  p.text-small Hacer click en ver la hoja de pedido
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_4.docx')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-1
 
     Separador
     
@@ -110,21 +115,26 @@
       .row.justify-content-center 
         .col-lg-12.mb-5
           figure
-            img(src="@/assets/curso/temas/tema4/g2.png", alt="alt")
+            img(src="@/assets/curso/temas/tema4/rueda.png", alt="alt")
 
-    .tarjeta.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/mini1.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
-              p.text-small Si desea profundizar en los Tipos de descuentos, descarga el siguiente documento:
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_5.docx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row
+      .col-lg-1
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema4/mini1.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  //img(src="@/assets/curso/temas/tema4/flechas.png")
+                  p.text-small Para iniciar el cálculo de costes de los pedidos se debe empezar con los costos de producción directos e indirectos, donde la primera parte hace referencia a las materias primas, insumos y mano de obra. Y los costos indirectos son todos los gastos de aprovisionamiento, donde se hacía referencia a las gestiones realizadas y pago de servicios públicos. 
+                  p.text-small Si desea profundizar en los Tipos de descuentos, descarga el siguiente documento:
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_5.docx')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+      .col-lg-1  
 
     Separador
     
@@ -146,7 +156,7 @@
               img(src='@/assets/curso/temas/tema4/g8.svg', alt='Texto que describa la imagen')
           
         h2.text-center Discrecionales
-        p Son costes que se encuentran debidamente planificados, los cuales se pueden llegar a minimizar en determinado momento. Un ejemplo de ellos son los gastos de marketing, publicidad, etc.
+        p Son costes que se encuentran debidamente planificados, los cuales se pueden llegar a minimizar en determinado momento. Un ejemplo de ellos son los gastos de #[i marketing], publicidad, etc.
 
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
@@ -184,26 +194,30 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               br
-              img(width="125" height="125" src='@/assets/curso/temas/tema4/mini2.svg', alt='Texto que describa la imagen')
+              img(width="125" height="125" src='@/assets/curso/temas/tema4/mini3.svg', alt='Texto que describa la imagen')
               br
               h1.text-center Costes variables regresivos
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
               h1 Costes variables regresivos
               p Son gastos que funcionan en contra del nivel de producción. En este caben de ejemplo los descuentos por volumen. Entre más cantidad de mercancía se compre, menos se va a pagar.
-          
-    .tarjeta.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema4/mini4.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Si desea visualizar algunas fórmulas para el cálculo de los tipos de costes y algunas técnicas para la reducción de los mismos. 
-              p.text-small Descarga el siguiente documento:
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_6.docx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+
+    .row
+      .col-lg-1
+      .col-lg-10         
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema4/mini4.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small Si desea visualizar algunas fórmulas para el cálculo de los tipos de costes y algunas técnicas para la reducción de los mismos. 
+                  p.text-small Descarga el siguiente documento:
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_6.docx')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+        .col-lg-1
 
     Separador
     
