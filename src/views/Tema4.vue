@@ -23,7 +23,7 @@
     .row.mt-5
       TabsC.color-secundario
         .py-3.py-md-4(titulo="Costos de aprovisionamiento")
-          .row
+          .row.justify-content-around.align-items-center
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/g2.svg', alt='Texto que describa la imagen')
@@ -37,7 +37,7 @@
 
                 
         .py-3.py-md-4(titulo="Costos de mantenimiento y almacenamiento")
-          .row
+          .row.justify-content-around.align-items-center
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/g3.svg', alt='Texto que describa la imagen')
@@ -53,7 +53,7 @@
 
         
         .py-3.py-md-4(titulo="Costos por falta de existencias")
-          .row
+          .row.justify-content-around.align-items-center
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/g4.svg', alt='Texto que describa la imagen')
@@ -230,7 +230,11 @@
       .col-lg-11
         .bloque-texto-b.color-acento-contenido.p-3 
           .bloque-texto-b__texto
-            p Los costes de los inventarios son todos los gastos que se requieren para llevar a cabo este proceso que comprende tantas actividades y que ninguna de ellas se puede dejar pasar por alto, estas se encuentran debidamente planificadas, organizadas y estarán controladas por una persona o un software. Todas estas fases comprenden una serie de gastos que la empresa debe asumir, bien sean del personal operativo, los alquileres de almacenes o bodegas, softwares, maquinarias para el cargue y descargue de mercancías, entre otros.
+            p Los costes de los inventarios son todos los gastos que se requieren para llevar a cabo este proceso que comprende tantas actividades y que ninguna de ellas se puede dejar pasar por alto, estas se encuentran debidamente planificadas, organizadas y estarán controladas por una persona o un 
+              i software. 
+              | Todas estas fases comprenden una serie de gastos que la empresa debe asumir, bien sean del personal operativo, los alquileres de almacenes o bodegas, 
+              i softwares, 
+              | maquinarias para el cargue y descargue de mercancías, entre otros.
 
 
 </template>

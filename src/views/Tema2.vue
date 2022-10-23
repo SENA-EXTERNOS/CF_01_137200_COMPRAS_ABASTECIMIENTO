@@ -173,7 +173,7 @@
               p teniendo definido el diagrama de flujo con el que se va a trabajar, la gerencia y recursos humanos deberá iniciar con el proceso de selección y asignación de los roles que va a desempeñar cada uno de ellos en el proceso de inventarios. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img4.png')})`}")
       br
-    .row.justify-content-center
+    .row.justify-content-center.bloque-fondo1
       .col-lg-8.sm-8
         .titulo-sexto.color-acento-contenido            
           b Figura 2
@@ -184,7 +184,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/g4.svg", alt="alt")
 
-    Separador
+    Separador.bloque-fondo2
 
     #t_2_4.titulo-segundo.color-primario
       h2 2.4.	Tecnología del manejo de inventarios
