@@ -70,7 +70,7 @@
 
     .row 
       .col-lg-4
-        img(src='@/assets/curso/temas/tema4/g5.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema4/g5.png', alt='Texto que describa la imagen')
       .col-lg-8
         .cajon-b.color-primario.p-3.mb-5
           p.mb-0 Para lograr una buena gestión del #[i stock] y los inventarios es importante que las empresas tengan en cuenta y planifiquen los costos que este proceso conlleva. A esta fase hay que aportar todos los conocimientos, requerimiento e inversiones debido a que dicha estrategia ayudará a las empresas a ser mucho más productivas y competitivas en el mercado, logrando optimizar muchos recursos que al final van a representar utilidades. Los costos que se deben tener en cuenta son los de: adquisición, pedido, almacenamiento y ruptura.

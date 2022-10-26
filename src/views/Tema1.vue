@@ -37,7 +37,7 @@
 
     .row
       .col-md-2
-        img(src="@/assets/curso/temas/tema1/t1-1.svg", alt="").banner-principal-decorativo-3
+        img(src="@/assets/curso/temas/tema1/t1-1.png", alt="").banner-principal-decorativo-3
       .col-md-10
         p Cuando se habla de política administrativa o empresarial, se hace referencia a un grupo de directrices que van alineadas con las medidas, normas, estrategias y decisiones que toma un área directiva con un alto nivel jerárquico, con el fin de brindar orden en las actividades a desarrollar, alcanzando acuerdos armónicos entre colaboradores y líderes de forma democrática para lograr cumplir con la misión y los objetivos trazados en la planificación. 
         p Cuando se decide formular una política empresarial se debe iniciar con una notificación concreta de lo que se quiere, seguido se debe comunicar a quienes va dirigida esta política (especificar el área administrativa u operativa), decretar el departamento encargado de que estas políticas se lleven a cabo y, por último, precisar los procedimientos de vigilancia y control con el fin de verificar que se cumpla con lo propuesto.
@@ -101,7 +101,7 @@
         p Los inventarios son de suma importancia en las empresas industriales, distribuidoras, pymes y todas aquellas que tengan por actividad económica la compra y venta de bienes o servicios. Cada uno de estos bienes, productos, servicios y materias primas deberán estar ordenadas, caracterizadas y cualificadas para lograr ser organizadas en los almacenes y así la empresa saber cuál es su patrimonio y en base a esto planificar sus estrategias de producción y ventas.
         p El proceso de inventarios también incluye o aporta beneficios en el área logística de la empresa debido a que son dos departamentos que deben de trabajar en conjunto para conseguir una correcta gestión de funciones de almacenamiento y distribución para cumplir con la demanda proyectada.
       .col-lg-4
-        img(src="@/assets/curso/temas/tema1/t1-3.svg", alt="")
+        img(src="@/assets/curso/temas/tema1/t1-3.png", alt="")
 
     .row
       .col-lg-1
@@ -130,7 +130,7 @@
     .row.justify-content-center
       .col-md-6.col-lg-4
           figure
-            img(src='@/assets/curso/temas/tema1/t1-5.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/t1-5.png', alt='Texto que describa la imagen')
     br
 
     .row
@@ -164,22 +164,19 @@ export default {
         titulo: 'Materias primas',
         texto:
           'Son todos los materiales que se utilizan para la fabricación del producto.',
-        imagen: require('@/assets/template/slider1-1-materias-primas.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        imagen: require('@/assets/curso/temas/tema1/slider1.png'),
       },
       {
         titulo: 'Producto en proceso',
         texto:
           'Fases por las que es sometido el producto en su proceso de producción.',
-        imagen: require('@/assets/template/slider1-2-producto-proceso.svg'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        imagen: require('@/assets/curso/temas/tema1/slider2.png'),
       },
       {
         titulo: 'Producto terminado',
         texto:
           'Artículo listo para ser comercializado y entregado al cliente final.',
-        imagen: require('@/assets/template/slider1-3-producto-terminado.svg'),
-        //leyendaImagen: 'Leyenda de la imagen',
+        imagen: require('@/assets/curso/temas/tema1/slider3.png'),
       },
     ],
   }),

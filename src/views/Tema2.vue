@@ -11,7 +11,7 @@
 
     .row
       .col-md-4.mb-3
-        img(src="@/assets/curso/temas/tema2/g1.svg", alt="Texto de la imagen")
+        img(src="@/assets/curso/temas/tema2/g1.png", alt="Texto de la imagen")
       .col-md-8.mb-3
         p La logística en una empresa está asociada a los procesos administrativos de la organización, debido a que es un área que debe ser tenida en cuenta en el instante que se decide planificar, ejecutar y controlar un determinado tipo de gestión, ya que con las personas encargadas de este departamento se determinará la programación paso a paso de cómo se van a llevar a cabo las diferentes fases de un proceso operacional.
         | Conjugando los conceptos de tecnología y logística, se puede llegar a la conclusión de que los sistemas de información logística son todas las herramientas, recursos y métodos que se llevan a cabo en una organización para automatizar los procesos logísticos, productivos y de inventarios, los cuales nos van a permitir tener un flujo de información constante, logrando así minimizar fallas que se presenten en cada una de las fases de producción y distribución.
@@ -182,7 +182,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/tema2/g4.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema2/g4.png", alt="alt")
 
     Separador.bloque-fondo2
 
@@ -195,7 +195,7 @@
 
     .row
       .col-lg-4.mb-3
-        img(src="@/assets/curso/temas/tema2/g5.svg", alt="Texto de la imagen").banner-principal-decorativo-3
+        img(src="@/assets/curso/temas/tema2/g5.png", alt="Texto de la imagen").banner-principal-decorativo-3
       .col-lg-8.mb-3
         p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene los producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
     br

@@ -136,7 +136,7 @@
 
     .row
       .col-lg-3
-        img(src="@/assets/curso/temas/tema3/g3.svg", alt="Texto de la imagen")
+        img(src="@/assets/curso/temas/tema3/g3.png", alt="Texto de la imagen")
       .col-lg-9
         p La gestión logística y de inventarios juega un papel fundamental al interior de la empresa, inclusive en algunas el control de los mismos es prioritario debido a que desde allí se logra optimizar una serie de recursos representan costos monetarios, al tiempo que reducirán los desperdicios de materias primas, productos y dinero. Cuando se desea aumentar la productividad se debe recurrir al uso de tecnologías, las cuales nos ayudarán a automatizar los procesos y brindan información relevante como una serie de indicadores que evidencian cuáles han sido los comportamientos en temas de entradas y salidas de mercancías. 
         | La medición de existencias las podemos llevar a cabo con metodologías de cálculo o #[i softwares] que tengan en cuenta los volúmenes de mercancía de acuerdo a los inventarios, la ocupación del lugar donde se almacenan las mercancías y los costos operacionales. Al momento de emplear este tipo de tecnologías o metodologías, será mucho más fácil hallar los cálculos que sean necesarios para el manejo y medición de los inventarios, que permitan analizar toda esta información para llegar a tomar decisiones.
