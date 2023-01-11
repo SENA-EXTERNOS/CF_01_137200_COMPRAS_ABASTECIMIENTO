@@ -35,72 +35,14 @@ export default {
         numero: '1',
         titulo: 'Inventarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Política de inventarios',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Normatividad',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Sistema de reposición de inventarios',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Importancia de los inventarios',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Métodos de control de inventarios',
-            hash: 't_1_5',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Sistema de información logístico y sus elementos',
+        titulo: 'Sistemas de información logística y sus elementos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Elementos del sistema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Importancia de las tecnologías',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Flujogramas de proceso de inventarios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Tecnología del manejo de inventarios',
-            hash: 't_2_4',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -108,27 +50,6 @@ export default {
         numero: '3',
         titulo: 'Métodos de valoración de inventarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipos de métodos',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Metodologías para la medición de existencias y el manejo de inventarios',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Criterios de valoración',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -136,44 +57,6 @@ export default {
         numero: '4',
         titulo: 'Costos de inventarios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Tipos de costos',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Costos relacionados con el <em>stock</em>',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Costes de pedidos',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Precio de adquisición',
-            hash: 't_4_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.5',
-            titulo: 'Métodos de costeo',
-            hash: 't_4_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.6',
-            titulo: 'Costeo de inventarios',
-            hash: 't_4_6',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -223,27 +106,27 @@ export default {
   },
   complementario: [
     {
-      tema: 'Fundamentos de control y gestión de inventarios',
+      tema: 'Inventarios',
       referencia:
-        '<em>Vidal Holguín, C. J. (2010). Fundamentos de control y gestión de inventarios. Programa Editorial UNIVALLE.</em>',
+        'Vidal Holguín, C. J. (2010). <em>Fundamentos de control y gestión de inventarios</em>. Programa Editorial UNIVALLE.',
       tipo: 'Libro',
       link:
         'https://books.google.es/books?hl=es&lr=&id=IRPmDwAAQBAJ&oi=fnd&pg=PA11&dq=gesti%C3%B3n+de+inventarios&ots=jzfHxLumMN&sig=ZWfCP8jcJGf-PVIoZxUklt22SAE',
     },
     {
-      tema: 'Política de inventarios',
+      tema: 'Inventarios',
       referencia:
-        '<em>Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. Revista Ingeniería Industrial, 17(1), 5-22.</em>',
+        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. <em>Revista Ingeniería Industrial, 17</em>(1), p. 5-22.',
       tipo: 'PDF',
-      descarga: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7047360',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7047360 ',
     },
     {
-      tema: 'NIC 2',
+      tema: 'Inventarios',
       referencia:
-        '<em>Contabilidad, N. I. (2013). NIC 2 Inventarios. NIC 2 Inventarios.</em>',
+        'Contabilidad, N. I. (2013). <em>NIC 2 Inventarios<em>. NIC 2 Inventarios.',
       tipo: 'PDF',
-      descarga:
-        'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_NC_2.pdf',
+      link:
+        'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_N',
     },
   ],
   glosario: [
@@ -290,58 +173,35 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Arias, A. S. (29 de 05 de 2012). <em>Economipedia.</em>',
-      link: 'https://economipedia.com/definiciones/logistica.html',
-    },
-    {
-      referencia: 'Arias, E. R. (22 de 04 de 2020). <em>Economipedia.</em>',
-      link: 'https://economipedia.com/definiciones/costo-de-produccion.html',
-    },
-    {
       referencia:
-        'Contabilidad, N. I. (2013). NIC 2 <em>Inventarios.</em> NIC 2 Inventarios.',
+        'Contabilidad, N. I. (2013). <em>NIC 2 Inventarios</em>. NIC 2 Inventarios.',
       link: '',
     },
     {
       referencia:
-        'García, M. Pantoja, C. y Ramírez, C. (2010). Fundamentos y técnicas de costos.',
+        'García, M., Pantoja, C. y Ramírez, C. (2010). <em>Fundamentos y técnicas de costos</em>.',
       link:
         'https://www.unilibre.edu.co/cartagena/pdf/investigacion/libros/ceac/FUNDAMENTOS_Y_TECNICAS%20DE%20COSTO.pdf',
     },
     {
-      referencia: 'Galán, J. S. (13 de 04 de 2021). <em>Economipedia.</em>',
+      referencia: 'Galán, J. S. (2021). <em>Control administrativo</em>.',
       link: 'https://economipedia.com/definiciones/control-administrativo.html',
     },
     {
-      referencia:
-        'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). <em>Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción.</em> Revista Ingeniería Industrial, 17(1), 5-22.',
-      link: '',
-    },
-    {
-      referencia: 'Peiró, R. (05 de 05 de 2020). <em>Economipedia.</em> ',
+      referencia: 'Peiró, R. (2020). <em>Sistema de información<em>.',
       link: 'https://economipedia.com/definiciones/sistema-de-informacion.html',
     },
     {
-      referencia: 'Quiroa, M. (12 de 01 de 2020). <em>Economipedia.</em>',
+      referencia: 'Quiroa, M. (2020). <em>Producción</em>.',
       link: 'https://economipedia.com/definiciones/produccion.html',
     },
     {
-      referencia: 'Roldán, P. N. (02 de 12 de 2016).',
+      referencia: 'Roldán, P. N. (2016). <em>Competitividad.</em>',
       link: 'https://economipedia.com/definiciones/competitividad.html',
     },
     {
-      referencia: 'Roldán, P. N. (21 de 08 de 2017). <em>Economipedia.</em>',
+      referencia: 'Roldán, P. N. (2017). <em>Tecnología.</em>',
       link: 'https://economipedia.com/definiciones/tecnologia.html',
-    },
-    {
-      referencia:
-        'Vidal Holguín, C. J. (2010). Fundamentos de control y gestión de inventarios. Programa Editorial UNIVALLE.',
-      link: '',
-    },
-    {
-      referencia: 'Westreicher, G. (12 de 09 de 2020). <em>Economipedia.</em>',
-      link:
-        'https://economipedia.com/definiciones/diferencia-entre-metodo-y-metodologia.html',
     },
   ],
   creditos: {
