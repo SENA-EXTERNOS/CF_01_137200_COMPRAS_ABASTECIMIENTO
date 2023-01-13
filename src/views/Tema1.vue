@@ -31,7 +31,7 @@
 
           .row(titulo="Costos")
             .col-12
-              p.mb-0 Los inventarios representan una serie de gastos para su manejo, es aquí donde se tienen en cuenta costos operativos como lo son los almacenes, software, mantenimientos, penalizaciones adquisiciones de materias primas, etc.
+              p.mb-0 Los inventarios representan una serie de gastos para su manejo, es aquí donde se tienen en cuenta costos operativos como lo son los almacenes, #[i software], mantenimientos, penalizaciones adquisiciones de materias primas, etc.
               
     .row.mt-5
       h3 Política de inventarios
@@ -109,7 +109,7 @@
       .col-lg-11
         p Un sistema de reposición tiene como objetivo que las empresas, ya sean distribuidores, pymes o industrias, tengan un buen flujo de ventas o de producción, donde siempre se cuente con las materias primas necesarias para los procesos productivos, o en el caso de las compañías comerciales que siempre tengan el artículo que el cliente está solicitando para así lograr una relación armónica y cumplir con sus necesidades y expectativas.
 
-        p Empleando un sistema de reposición de inventarios todo será más sencillo, ya que allí estará importada toda la información relacionada con ventas, materias primas, insumos, compras, entradas, salidas, entre otros, por lo cual este software sabrá cuándo se deberá realizar un reabastecimiento, solicitar insumos a los proveedores, productos que están agotados o a punto de agotarse, artículos que llevan cierta cantidad de tiempo almacenados.
+        p Empleando un sistema de reposición de inventarios todo será más sencillo, ya que allí estará importada toda la información relacionada con ventas, materias primas, insumos, compras, entradas, salidas, entre otros, por lo cual este #[i software] sabrá cuándo se deberá realizar un reabastecimiento, solicitar insumos a los proveedores, productos que están agotados o a punto de agotarse, artículos que llevan cierta cantidad de tiempo almacenados.
     
     .row.mt-5
       h3 Importancia de los inventarios

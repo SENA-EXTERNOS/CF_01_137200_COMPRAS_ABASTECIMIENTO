@@ -203,6 +203,12 @@ export default {
       referencia: 'Roldán, P. N. (2017). <em>Tecnología.</em>',
       link: 'https://economipedia.com/definiciones/tecnologia.html',
     },
+    {
+      referencia:
+        'Westreicher, G. (2020). <em>Diferencia entre método y metodología.</em>',
+      link:
+        'https://economipedia.com/definiciones/diferencia-entre-metodo-y-metodologia.html',
+    },
   ],
   creditos: {
     liderEquipo: [

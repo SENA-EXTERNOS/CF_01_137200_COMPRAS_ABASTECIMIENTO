@@ -129,7 +129,7 @@
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini5.svg', alt='Texto que describa la imagen')
                 .col-md-8
                   h4 5.	Toma de decisiones: 
-                  p Al implementar diferentes programas o software en cada una de las fases de la organización lograremos obtener mucha información beneficiosa la cual debe ser analizada para la toma de decisiones.
+                  p Al implementar diferentes programas o #[i software] en cada una de las fases de la organización lograremos obtener mucha información beneficiosa la cual debe ser analizada para la toma de decisiones.
 
               .row(titulo="")   
                 .col-md-4.mb-4.mb-md-0
@@ -241,7 +241,7 @@
               img(src='@/assets/curso/temas/tema2/t3.png', alt='Texto que describa la imagen')
           
         h3.text-center Modelos de pronósticos
-        p.text-center Existen unos programas o software que retienen información de datos  por medio de algoritmos estadísticos realizan  que le va permitir a las personas encargadas planificar y tomar decisiones . 
+        p.text-center Existen unos programas o #[i software] que retienen información de datos  por medio de algoritmos estadísticos realizan  que le va permitir a las personas encargadas planificar y tomar decisiones . 
 
 </template>
 

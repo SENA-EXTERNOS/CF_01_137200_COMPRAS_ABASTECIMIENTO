@@ -115,7 +115,7 @@
       .row.justify-content-center.mt-3
         .col-lg-12.mb-5
           figure
-            img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt")
+            img(src="@/assets/curso/temas/tema4/img5.svg", alt="alt")
 
     .row.mt-5
       p #[b Tipos de descuentos aplicados al valor de adquisición ]
@@ -160,7 +160,7 @@
               img(src='@/assets/curso/temas/tema4/g8.svg', alt='Texto que describa la imagen')
           
         h2.text-center Discrecionales
-        p Son costos que se encuentran debidamente planificados, los cuales se pueden llegar a minimizar en determinado momento. Un ejemplo de ellos son los gastos de marketing, publicidad, etc.
+        p Son costos que se encuentran debidamente planificados, los cuales se pueden llegar a minimizar en determinado momento. Un ejemplo de ellos son los gastos de #[i marketing], publicidad, etc.
 
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
@@ -232,9 +232,9 @@
         .bloque-texto-b.color-acento-contenido.p-3 
           .bloque-texto-b__texto
             p Los costes de los inventarios son todos los gastos que se requieren para llevar a cabo este proceso que comprende tantas actividades y que ninguna de ellas se puede dejar pasar por alto, estas se encuentran debidamente planificadas, organizadas y estarán controladas por una persona o un 
-              i software. 
+              i <em>software</em>. 
               | Todas estas fases comprenden una serie de gastos que la empresa debe asumir, bien sean del personal operativo, los alquileres de almacenes o bodegas, 
-              i softwares, 
+              i <em>software</em>, 
               | maquinarias para el cargue y descargue de mercancías, entre otros.
 
 

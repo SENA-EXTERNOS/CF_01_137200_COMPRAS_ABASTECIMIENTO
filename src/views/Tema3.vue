@@ -24,7 +24,9 @@
     .row.mt-5
       h3 Tipos de métodos
 
-      p La Norma Internacional de Contabilidad 2 (NIC 2) cual contempla una serie de ítems a tener en cuenta a la hora de realizar los procesos contables y los cálculos de los costos de inventarios, y a su vez determina siete (7) métodos de valoración de inventarios, aunque la normatividad colombiana solo tiene en cuenta cuatro de ellos.
+      p La Norma Internacional de Contabilidad 2 (NIC 2) contempla una serie de ítems a tener en cuenta a la hora de realizar los procesos contables y los cálculos de los costos de inventarios, y a su vez determina siete (7) métodos de valoración de inventarios, aunque la normatividad colombiana solo tiene en cuenta cuatro de ellos.
+
+      p Características de los tipos de métodos de valoración de inventarios
 
     .row.justify-content-center.mt-5
       .col-lg-8 
@@ -181,7 +183,7 @@
               td.col-lg-12 
                   p Cuando hacemos referencia al sistema de revisión periódica, se refiere a esa vigilancia que se le realiza a los artículos o materias primas, las cuales se les practicarán en tiempos equivalentes, ya sea semana a semana, mes a mes, trimestre a trimestre, etc. Lo que quiere decir que, hasta no terminar ese lapso, no se podrá realizar nuevos pedidos a proveedores.
               td.col-lg-12
-                  p En este tipo de revisión, la inspección de las mercancías se realiza de manera permanente y seguida. Cada vez que se tiene información de una compra o de una orden de producción en el software, inmediatamente se debe realizar la revisión del inventario.
+                  p En este tipo de revisión, la inspección de las mercancías se realiza de manera permanente y seguida. Cada vez que se tiene información de una compra o de una orden de producción en el #[i software], inmediatamente se debe realizar la revisión del inventario.
 
 </template>
 
