@@ -115,7 +115,7 @@
       .row.justify-content-center.mt-3
         .col-lg-12.mb-5
           figure
-            img(src="@/assets/curso/temas/tema4/img5.svg", alt="alt")
+            img(src="@/assets/curso/temas/tema4/img5.png", alt="alt")
 
     .row.mt-5
       p #[b Tipos de descuentos aplicados al valor de adquisición ]
@@ -157,7 +157,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema4/g8.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema4/img8.svg', alt='Texto que describa la imagen')
           
         h2.text-center Discrecionales
         p Son costos que se encuentran debidamente planificados, los cuales se pueden llegar a minimizar en determinado momento. Un ejemplo de ellos son los gastos de #[i marketing], publicidad, etc.
