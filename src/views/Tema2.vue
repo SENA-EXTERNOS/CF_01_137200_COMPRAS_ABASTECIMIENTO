@@ -81,7 +81,7 @@
     .bloque-texto-f.bloque-color-azul.p-4.p-5.mb-6
       .row
         .col-lg-5
-          h4 Importancia de las tecnologías en las empresas.
+          h4 Importancia de las tecnologías en las empresas
           p El uso de las tecnologías se ha vuelto una práctica indispensable en la vida diaria de las personas debido a las diferentes opciones que nos ofrece la internet, y por ende las redes sociales.
           img(width="200" height="200" src="@/assets/curso/temas/tema2/img2-2.svg", alt="Texto de la imagen")
         
@@ -95,7 +95,7 @@
                   figure
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini1.svg', alt='Texto que describa la imagen')
                 .col-md-8
-                  h4 1.	Optimización:  
+                  h4 Optimización:  
                   p La implementación de aparatos tecnológicos brindará un mejor rendimiento y optimización de los recursos en cada una de las áreas ya que con ello los procesos se realizarán de manera sistematizada.
               
               .row(titulo="")
@@ -103,7 +103,7 @@
                   figure
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini2.svg', alt='Texto que describa la imagen')
                 .col-md-8
-                  h4 2.	Competitividad:    
+                  h4 Competitividad:    
                   p El uso de tecnología en cada uno de los departamentos ayudará a la empresa a ser altamente competitiva debido a la mejora de la estandarización en cada uno de sus procesos.
               
               .row(titulo="")
@@ -112,7 +112,7 @@
                   figure
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini3.svg', alt='Texto que describa la imagen')
                 .col-md-8
-                  h4 3.	Comunicación:     
+                  h4 Comunicación:     
                   p Indudablemente las tecnologías de la comunicación fueron un descubrimiento muy importante para la sociedad y la implementación en las empresas fue demasiado beneficiosa para cada uno de los procesos.
               
               .row(titulo="")  
@@ -120,7 +120,7 @@
                   figure
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini4.svg', alt='Texto que describa la imagen')
                 .col-md-8
-                  h4 4.	Productividad:      
+                  h4 Productividad:      
                   p El uso de las tecnologías en los procesos administrativos ayudará a reducir los riesgos, errores y desperdicios, lo cual se transformará en mayor productividad.
               
               .row(titulo="")     
@@ -128,7 +128,7 @@
                   figure
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini5.svg', alt='Texto que describa la imagen')
                 .col-md-8
-                  h4 5.	Toma de decisiones: 
+                  h4 Toma de decisiones: 
                   p Al implementar diferentes programas o #[i software] en cada una de las fases de la organización lograremos obtener mucha información beneficiosa la cual debe ser analizada para la toma de decisiones.
 
               .row(titulo="")   
@@ -136,7 +136,7 @@
                   figure
                     img(width="100" height="100" src='@/assets/curso/temas/tema2/mini6.svg', alt='Texto que describa la imagen')
                 .col-md-8
-                  h4 6.	Sucursales omnipresentes:   
+                  h4 Sucursales omnipresentes:   
                   p Cuando se hace uso de las diferentes tecnologías los empresarios, administradores o gerentes podrán realizar sus actividades laborales desde distintos lugares.
 
 
