@@ -52,7 +52,7 @@
               p Infraestructura: uno de ellos puede ser la renta del almacén o bodega
               p Instalaciones: por ejemplo, los carros elevadores de mercancía.
 
-              p Mantenimiento del stock: dentro de este se encuentran su costo y el costo de los seguros.
+              p Mantenimiento del <em>stock</em> dentro de este se encuentran su costo y el costo de los seguros.
 
               p Riesgos: están relacionados con el daño, extravío y hurto de mercancías.
 
