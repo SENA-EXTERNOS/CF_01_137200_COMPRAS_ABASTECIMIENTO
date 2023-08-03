@@ -68,7 +68,7 @@
               h4 Costos por falta de existencias: 
               p Este tipo de costos sucede cuando la empresa recibe un pedido y no tiene dentro de su inventario el producto o la mercancía para cumplir con el mismo.
               p Es ahí donde se decide que ocurrió un costo por pérdida de venta. Este costo se deduce de la ganancia que había sido generada por dicho pedido pero que no ingresó a caja por la cancelación del mismo.
-              p Dentro de este también se encuentran casos como el de pedidos retrasados los cuales generan unos costos adicionales debido a que si bien la venta sigue en pie, la demora en la entrega va a generar unos gastos adicionales de personal, transporte, entre otros.
+              p Dentro de este también se encuentran casos como el de pedidos retrasados los cuales generan unos costos adicionales debido a que, si bien la venta sigue en pie, la demora en la entrega va a generar unos gastos adicionales de personal, transporte, entre otros.
                   
     .row.mt-5
       h3 Costos relacionados con el #[i stock]
@@ -78,7 +78,7 @@
         img(src='@/assets/curso/temas/tema4/g5.png', alt='Texto que describa la imagen')
       .col-lg-8
         .cajon-b.color-primario.p-3.mb-5
-          p.mb-0 Para lograr una buena gestión del #[i stock] y los inventarios es importante que las empresas tengan en cuenta y planifiquen los costos que este proceso conlleva. A esta fase hay aportarle todos los conocimientos, requerimiento e inversiones debido a que dicha estrategia ayudará a las empresas a ser mucho más productivas y competitivas en el mercado, logrado optimizar muchos recursos que al final van a representar utilidades. Los costos que se deben tener en cuenta son los de: adquisición, pedido, almacenamiento y ruptura.
+          p.mb-0 Para lograr una buena gestión del #[i stock] y los inventarios es importante que las empresas tengan en cuenta y planifiquen los costos que este proceso conlleva. A esta fase hay que aportar todos los conocimientos, requerimiento e inversiones debido a que dicha estrategia ayudará a las empresas a ser mucho más productivas y competitivas en el mercado, logrado optimizar muchos recursos que al final van a representar utilidades. Los costos que se deben tener en cuenta son los de: adquisición, pedido, almacenamiento y ruptura.
 
     .row.mt-5
       h3 Costos de pedidos
@@ -169,7 +169,7 @@
               img(src='@/assets/curso/temas/tema4/g9.svg', alt='Texto que describa la imagen')
           
         h2.text-center Comprometidos
-        p En este apartado se encuentran los gastos que difícilmente se pueden modificar debido a que si se llegan a realizar, la empresa podría sufrir problemas de rendimiento y productividad.
+        p En este apartado se encuentran los gastos que difícilmente se pueden modificar debido a que, si se llegan a realizar, la empresa podría sufrir problemas de rendimiento y productividad.
 
     .row.mt-5
       p Otros son los #[b costos variables], estos dependen de la actividad de la organización, de la cantidad de producción y sus ventas. Cuando la producción aumenta, sus costos lo harán de igual manera, y cuando disminuyan los gastos harán lo propio. Este tipo de gastos teniendo una correcta planificación pueden ser controlables en un corto plazo y pueden clasificarse de la siguiente manera:
@@ -231,11 +231,7 @@
       .col-lg-11
         .bloque-texto-b.color-acento-contenido.p-3 
           .bloque-texto-b__texto
-            p Los costes de los inventarios son todos los gastos que se requieren para llevar a cabo este proceso que comprende tantas actividades y que ninguna de ellas se puede dejar pasar por alto, estas se encuentran debidamente planificadas, organizadas y estarán controladas por una persona o un 
-              i <em>software</em>. 
-              | Todas estas fases comprenden una serie de gastos que la empresa debe asumir, bien sean del personal operativo, los alquileres de almacenes o bodegas, 
-              i <em>software</em>, 
-              | maquinarias para el cargue y descargue de mercancías, entre otros.
+            p Los costes de los inventarios son todos los gastos que se requieren para llevar a cabo este proceso que comprende tantas actividades y que ninguna de ellas se puede dejar pasar por alto, estas se encuentran debidamente planificadas, organizadas y estarán controladas por una persona o un <em>software</em>. Todas estas fases comprenden una serie de gastos que la empresa debe asumir, bien sean del personal operativo, los alquileres de almacenes o bodegas, <em>software</em>, maquinarias para el cargue y descargue de mercancías, entre otros.
 
 
 </template>

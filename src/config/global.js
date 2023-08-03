@@ -76,31 +76,31 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
       {
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
     ],
   },
@@ -126,7 +126,7 @@ export default {
         'Contabilidad, N. I. (2013). <em>NIC 2 Inventarios<em>. NIC 2 Inventarios.',
       tipo: 'PDF',
       link:
-        'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_N',
+        'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_NC_2.pdf',
     },
   ],
   glosario: [
@@ -175,7 +175,8 @@ export default {
     {
       referencia:
         'Contabilidad, N. I. (2013). <em>NIC 2 Inventarios</em>. NIC 2 Inventarios.',
-      link: '',
+      link:
+        'https://asesorateenbolivia.com/media/anexos/2019/09/01/13_Norma_Contable_NC_2.pdf',
     },
     {
       referencia:

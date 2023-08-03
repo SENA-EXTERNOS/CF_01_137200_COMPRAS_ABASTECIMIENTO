@@ -129,7 +129,7 @@
         img(src="@/assets/curso/temas/tema1/img2.svg", alt="")
 
       .col-lg-9
-        p Por otra parte, se conoce que si se trabaja con demanda probabilística, nunca se sabrá a ciencia cierta la cantidad de productos que se podrá llegar a vender. Si se logra tener un almacén organizado, esto permitirá disminuir una serie de inconvenientes debido a que al momento de un cliente solicitar un producto será mucho más fácil localizarlo y con esto cumplir con una excelente atención al cliente y satisfacción de la demanda.
+        p Por otra parte, se conoce que, si se trabaja con demanda probabilística, nunca se sabrá a ciencia cierta la cantidad de productos que se podrá llegar a vender. Si se logra tener un almacén organizado, esto permitirá disminuir una serie de inconvenientes debido a que al momento de un cliente solicitar un producto será mucho más fácil localizarlo y con esto cumplir con una excelente atención al cliente y satisfacción de la demanda.
 
         .cajonAmarillo.bgr-tarjeta1-tema1.p-4.mt-3
           p(data-aos="fade-down") El control de inventarios continuo, es de suma importancia debido a que este método ofrece la posibilidad de tener una mayor vigilancia de los productos y materias primas por si en algún momento alguno de ellos se encuentra cerca de agotarse, se pueda generar una alerta y ordenar más producción o llamar a proveedores para adquirir más insumos. 

@@ -5,12 +5,12 @@
 
 
     .row.justify-content-center
-      p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
+      p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -13,7 +13,7 @@
       .col-md-4.mb-3
         img(src="@/assets/curso/temas/tema2/g1.png", alt="Texto de la imagen")
       .col-md-8.mb-3
-        p En una empresa, lo logística está asociada a los procesos administrativos de la organización, debido a que es un área que debe ser tenida en cuenta en el instante que se decide planificar, ejecutar y controlar un determinado tipo de gestión, ya que con las personas encargadas de este departamento se determinará la programación paso a paso de cómo se van a llevar a cabo las diferentes fases de un proceso operacional.
+        p En una empresa, la logística está asociada a los procesos administrativos de la organización, debido a que es un área que debe ser tenida en cuenta en el instante que se decide planificar, ejecutar y controlar un determinado tipo de gestión, ya que con las personas encargadas de este departamento se determinará la programación paso a paso de cómo se van a llevar a cabo las diferentes fases de un proceso operacional.
 
         p Conjugando los conceptos de tecnología y logística, se puede llegar a la conclusión de que los sistemas de información logística son todas las herramientas, recursos y métodos que se llevan a cabo en una organización para automatizar los procesos logísticos, productivos y de inventarios, los cuales nos van a permitir tener un flujo de información constante, logrando así minimizar fallas que se presenten en cada una de las fases de producción y distribución.
 
@@ -145,42 +145,43 @@
 
       p Para lograr tener orden en cada una las fases de los procesos administrativos, se tendrá que elaborar por cada área de trabajo un diagrama de flujo, el cual nos va a indicar cómo debemos actuar ante ciertas situaciones y cuál será el paso a paso para lograr el objetivo trazado, el cual nos ahorrará tiempo en la toma de decisiones.
       p El principal objetivo de plasmar un flujograma de procesos inventarios es evidenciar el proceder de cada uno de los colaboradores en las diferentes fases que contiene la realización de algunas de las actividades, logrando optimizar al máximo cada uno de los recursos. Por su parte, también nos evidenciará puntos de inflexión donde debemos corregir, hallar tareas que no son necesarias y así eliminar o mejorar actividades que lo requieran. Si esta formulación se realiza con éxito, las directivas podrán realizar una mejor escogencia o asignación de los roles a sus empleados y conocer en que se deben capacitar cada uno de ellos para aumentar la productividad, competitividad y rendimiento.
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-8.col-md-12
+        .row.justify-content-center
+          .col-sm-12.col-lg-6.my-3
+            .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-5
+                  h3 Determinar cada una de las etapas:
+                  p Etapa 1: solicitud de abastecimiento a proveedores.
+                  p Etapa 2: admisión y organización de los materiales. 
+                  p Etapa 3: orden y remisión a producción.
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}")
 
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Determinar cada una de las etapas:
-              p Etapa 1: solicitud de abastecimiento a proveedores.
-              p Etapa 2: admisión y organización de los materiales. 
-              p Etapa 3: orden y remisión a producción.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.png')})`}")
+          .col-sm-12.col-lg-6.my-3
+            .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor            
+                .tarjeta-slide__contenido.p-5
+                  h3 Retroalimentación:
+                  p  una vez se haya realizado el diagrama de manera tentativa por la parte administrativa y de planeación, se procederá a ser considerado por las personas que ejecutan estos procedimientos y que sean ellos los que definan que tipo de ajustes se les podría realizar.
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}")
+        .row.mb-4.justify-content-center
+          .col-sm-12.col-lg-6.my-3
+            .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-5
+                  h3 Diagrama definitivo:
+                  p una vez se le hayan aplicado las respectivas correcciones, deberá ser sometido a una serie de revisiones estéticas y la presentación a las directivas, socios y trabajadores.
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img3.png')})`}")
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor            
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Retroalimentación:
-              p  una vez se haya realizado el diagrama de manera tentativa por la parte administrativa y de planeación, se procederá a ser considerado por las personas que ejecutan estos procedimientos y que sean ellos los que definan que tipo de ajustes se les podría realizar.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}")
-
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Diagrama definitivo:
-              p una vez se le hayan aplicado las respectivas correcciones, deberá ser sometido a una serie de revisiones estéticas y la presentación a las directivas, socios y trabajadores.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img3.png')})`}")
-
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor            
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Asignación de labores: 
-              p teniendo definido el diagrama de flujo con el que se va a trabajar, la gerencia y recursos humanos deberá iniciar con el proceso de selección y asignación de los roles que va a desempeñar cada uno de ellos en el proceso de inventarios. 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img4.png')})`}")
+          .col-sm-12.col-lg-6.my-3
+            .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor            
+                .tarjeta-slide__contenido.p-5
+                  h3 Asignación de labores: 
+                  p teniendo definido el diagrama de flujo con el que se va a trabajar, la gerencia y recursos humanos deberá iniciar con el proceso de selección y asignación de los roles que va a desempeñar cada uno de ellos en el proceso de inventarios. 
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img4.png')})`}")
       br
     .row.justify-content-center.bloque-fondo1
       .col-lg-8.sm-8
@@ -209,7 +210,7 @@
           .bloque-texto-b__texto        
             p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y <em>sotfware</em> bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
 
-        p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene los producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
+        p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene la producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
 
     .row.mt-5
       p #[b Tipos de tecnología en los inventarios]
@@ -241,7 +242,7 @@
               img(src='@/assets/curso/temas/tema2/t3.png', alt='Texto que describa la imagen')
           
         h3.text-center Modelos de pronósticos
-        p.text-center Existen unos programas o #[i software] que retienen información de datos  por medio de algoritmos estadísticos realizan  que le va permitir a las personas encargadas planificar y tomar decisiones . 
+        p.text-center Existen unos programas o #[i software] que retienen información de datos  por medio de algoritmos estadísticos que permiten a las personas encargadas planificar y tomar decisiones . 
 
 </template>
 
