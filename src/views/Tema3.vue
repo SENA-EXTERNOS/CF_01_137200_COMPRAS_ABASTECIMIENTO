@@ -12,7 +12,7 @@
         img(src="@/assets/curso/temas/tema3/g1.svg", alt="Texto de la imagen").banner-principal-decorativo-3 
 
       .col-11
-        p La evaluación de los inventarios es un proceso determinado y formulado por las personas encargadas del control de la empresa. El diseño de la valoración permitirá obtener el valor real en términos monetarios de la cantidad total de cada uno de los productos que allí se encuentran acaparados. Existen tres métodos principales para el planteamiento de la evaluación: identificación específica, Primeras en Entrar, Primeras en Salir (PEPS o FIFO), Método de costo promedio y Últimas en Entrar Primeras en Salir (LIFO o UEPS). A continuación, se tratará a profundidad el tema en el siguiente video:
+        p La evaluación de los inventarios es un proceso determinado y formulado por las personas encargadas del control de la empresa. El diseño de la valoración permitirá obtener el valor real en términos monetarios de la cantidad total de cada uno de los productos que allí se encuentran acaparados. Existen cuatro métodos principales para el planteamiento de la evaluación: identificación específica, Primeras en Entrar, Primeras en Salir (PEPS o FIFO), Método de costo promedio y Últimas en Entrar Primeras en Salir (LIFO o UEPS). A continuación, se tratará a profundidad el tema en el siguiente video:
         
       
     figure
@@ -26,7 +26,7 @@
 
       p La Norma Internacional de Contabilidad 2 (NIC 2) contempla una serie de ítems a tener en cuenta a la hora de realizar los procesos contables y los cálculos de los costos de inventarios, y a su vez determina siete (7) métodos de valoración de inventarios, aunque la normatividad colombiana solo tiene en cuenta cuatro de ellos.
 
-      p Características de los tipos de métodos de valoración de inventarios
+      p Características de los tipos de métodos de valoración de inventarios.
 
     .row.justify-content-center.mt-5
       .col-lg-8 
@@ -61,7 +61,7 @@
               .col-lg-3
                 figure
               br
-              h3.text-center PEP o FIFO:  
+              h3.text-center PEPS o FIFO:  
               
           
           .col-md-3.tarjeta.color-acento-botones-neutro.p-2
@@ -140,7 +140,7 @@
         img(src="@/assets/curso/temas/tema3/g3.png", alt="Texto de la imagen")
       .col-lg-9
         p La gestión logística y de inventarios juega un papel fundamental al interior de la empresa, inclusive en algunas el control de los mismos es prioritario debido a que desde allí se logra optimizar una serie de recursos que representan costos monetarios, al tiempo que reducirán los desperdicios de materias primas, productos y dinero. Cuando se desea aumentar la productividad se debe recurrir al uso de tecnologías, las cuales nos ayudarán a automatizar los procesos y brindan información relevante como una serie de indicadores que evidencian cuáles han sido los comportamientos en temas de entradas y salidas de mercancías. 
-        | La medición de existencias las podemos llevar a cabo con metodologías de cálculo o #[i software] que tengan en cuenta los volúmenes de mercancía de acuerdo a los inventarios, la ocupación del lugar donde se almacenan las mercancías y los costos operacionales. Al momento de emplear este tipo de tecnologías o metodologías, será mucho más fácil hallar los cálculos que sean necesarios para el manejo y medición de los inventarios, que permitan analizar toda esta información para llegar a tomar decisiones.
+        | La medición de existencias se puede llevar a cabo con metodologías de cálculo o #[i softwares] que tengan en cuenta los volúmenes de mercancía de acuerdo a los inventarios, la ocupación del lugar donde se almacenan las mercancías y los costos operacionales. Al momento de emplear este tipo de tecnologías o metodologías, será mucho más fácil hallar los cálculos que sean necesarios para el manejo y medición de los inventarios, que permitan analizar toda esta información para llegar a tomar decisiones.
 
     .row.mt-5
       h3 Criterios de valoración

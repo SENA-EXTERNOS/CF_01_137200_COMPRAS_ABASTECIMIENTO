@@ -118,7 +118,7 @@ export default {
       referencia:
         'Juárez, A. C., Zúñiga, C. A., Flores, J. L. M., & Partida, D. S. (2018). Gestión de políticas de inventario en el almacenamiento de materiales de acero para la construcción. <em>Revista Ingeniería Industrial, 17</em>(1), p. 5-22.',
       tipo: 'PDF',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7047360 ',
+      link: 'https://revistas.ubiobio.cl/index.php/RI/article/view/3767',
     },
     {
       tema: 'Inventarios',
@@ -133,7 +133,7 @@ export default {
     {
       termino: 'Costo',
       significado:
-        'El costo de producción (o costo de operación) es el gasto necesario para fabricar un bien o para generar un servicio. (Arias E. R., 2020)',
+        'El costo de producción (o costo de operación) es el gasto necesario para fabricar un bien o para generar un servicio (Arias E. R., 2020).',
     },
     {
       termino: 'Competitividad',
@@ -143,7 +143,7 @@ export default {
     {
       termino: 'Control',
       significado:
-        'Etapa de la gestión administrativa que se refiere a la evaluación de procesos y del rendimiento administrativo, así como de la identificación de desviaciones y posibles anomalías. (Galán, 2021).',
+        'Etapa de la gestión administrativa que se refiere a la evaluación de procesos y del rendimiento administrativo, así como de la identificación de desviaciones y posibles anomalías (Galán, 2021).',
     },
     {
       termino: 'Inventario',

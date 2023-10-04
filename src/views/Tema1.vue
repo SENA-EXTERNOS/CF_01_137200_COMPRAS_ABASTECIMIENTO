@@ -76,12 +76,12 @@
       .col-lg-9
         p Una norma empresarial la componen una serie de reglas que deben ser acatadas por las organizaciones legalmente constituidas, las cuales están impuestas por un ente gubernamental con el fin de tener un control de las conductas o procederes de las compañías. Las empresas deben reportar al menos una vez al año los inventarios que tienen, esto realizado al finalizar el periodo, debido a que es de suma importancia en los procesos contables, por ejemplo, los balances generales. Es allí donde los gerentes o administradores van a demostrar toda su gestión, con lo cual van a identificar una serie de factores que les permitirá reconocer lo que se está haciendo de buena manera y las fallas que se están teniendo, logrando corregir a tiempo y conseguir una mejora continua.
 
-        p El Decreto 2649 de 1993, se encuentra otra de las normas que rige el proceso de los Inventarios, es el Artículo 63 denominado #[b Inventarios] donde le brindan a las empresas una serie de directrices que serán apoyo para llevar a cabo este proceso. Allí se explica cómo valorar los inventarios, maneras de hallar el inventario final anual, los efectos de la inflación y cómo determinar los costos de ventas.
+        p El Decreto 2649 de 1993, se encuentra otra de las normas que rige el proceso de los inventarios, es el Artículo 63 denominado #[b Inventarios] donde le brindan a las empresas una serie de directrices que serán apoyo para llevar a cabo este proceso. Allí se explica cómo valorar los inventarios, maneras de hallar el inventario final anual, los efectos de la inflación y cómo determinar los costos de ventas.
 
     .row.mt-5.justify-content-center
       .col-lg-10
         .cajonAmarillo.bgr-tarjeta1-tema1.p-4.mt-3
-            p(data-aos="fade-down") Por otra parte, se encuentra con la Norma Internacional de Contabilidad 2 Inventarios (NIC 2) la cual busca que brindar una guía sobre cómo realizar un trámite riguroso a los inventarios en temas de costos teniendo en cuenta todos los aspectos en cuanto a recursos que implica llevar a cabo este proceso como lo son costos de inventario, costos de adquisición, costos de transformación, técnicas de medición de costos, fórmulas de cálculo del costo, etc.
+            p(data-aos="fade-down") Por otra parte, se encuentra con la Norma Internacional de Contabilidad 2 Inventarios (NIC 2) la cual busca brindar una guía sobre cómo realizar un trámite riguroso a los inventarios en temas de costos teniendo en cuenta todos los aspectos en cuanto a recursos que implica llevar a cabo este proceso como lo son costos de inventario, costos de adquisición, costos de transformación, técnicas de medición de costos, fórmulas de cálculo del costo, etc.
 
             p Si desea profundizar en el tema Normatividad, haga clic en los siguientes enlaces:
 
@@ -134,7 +134,7 @@
         .cajonAmarillo.bgr-tarjeta1-tema1.p-4.mt-3
           p(data-aos="fade-down") El control de inventarios continuo, es de suma importancia debido a que este método ofrece la posibilidad de tener una mayor vigilancia de los productos y materias primas por si en algún momento alguno de ellos se encuentra cerca de agotarse, se pueda generar una alerta y ordenar más producción o llamar a proveedores para adquirir más insumos. 
 
-        p.mt-3 Tener a disposición cierta cantidad materia prima en el área productiva, es necesario debido a que, si esto no llega a suceder por una mala proyección o proceder de las personas encargadas del inventario y compras, sería algo lamentable para la empresa ya que todo este departamento quedaría imposibilitado para continuar con las labores por falta de materiales. De ahí el valor que se le debe de brindar a la correcta gestión de los inventarios.   
+        p.mt-3 Tener a disposición cierta cantidad de materia prima en el área productiva, es necesario debido a que, si esto no llega a suceder por una mala proyección o proceder de las personas encargadas del inventario y compras, sería algo lamentable para la empresa ya que todo este departamento quedaría imposibilitado para continuar con las labores por falta de materiales. De ahí el valor que se le debe de brindar a la correcta gestión de los inventarios.   
       
     .row.justify-content-center.mb-3.align-items-center.mt-5
       h3 Métodos de control de inventarios 

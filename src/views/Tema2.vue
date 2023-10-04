@@ -17,7 +17,7 @@
 
         p Conjugando los conceptos de tecnología y logística, se puede llegar a la conclusión de que los sistemas de información logística son todas las herramientas, recursos y métodos que se llevan a cabo en una organización para automatizar los procesos logísticos, productivos y de inventarios, los cuales nos van a permitir tener un flujo de información constante, logrando así minimizar fallas que se presenten en cada una de las fases de producción y distribución.
 
-    p.mb-3 Cuando se trabaja de la mano con un SIL se cumple con la correcta gestión en los procesos de almacenamiento, inventarios y suministros, donde el objetivo sistema será captar y brindar cierta información que será de suma importancia en la organización, la cual deberá ser analizada, debatida y posteriormente tomar los correctivos para brindar soluciones a los problemas arrojados.
+    p.mb-3 Cuando se trabaja de la mano con un SIL se cumple con la correcta gestión en los procesos de almacenamiento, inventarios y suministros, donde el objetivo del sistema será captar y brindar cierta información que será de suma importancia en la organización, la cual deberá ser analizada, debatida y posteriormente tomar los correctivos para brindar soluciones a los problemas arrojados.
 
     .row.mt-5  
       h3 Elementos del sistema
@@ -64,7 +64,7 @@
               i.fas.fa-angle-right
               p.mb-0 #[b #[i Software] vertical ]
               br 
-            | Comprende actividades básicas de ventas, gestión de documentos, facturas e inventarios.
+            | tiene por objetivo desarrollar tareas de tipo logístico, inventarios de manera avanzada, proyección de la demanda, planeación estratégica de procesos, etc.
 
     .row.mt-5
       h3 Importancia de las tecnologías
@@ -208,9 +208,9 @@
 
         .bloque-texto-b.color-primario.p-3 
           .bloque-texto-b__texto        
-            p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y <em>sotfware</em> bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
+            p Hoy en día la mayoría de los procesos se realizan de manera sistematizada, por medio de programas y <em>sotfwares</em> bastante ágiles y productivos, que no solo se encargan de una actividad, por el contrario, pueden ayudar a las empresas a ejecutar diferentes tareas al tiempo, de manera rápida y efectiva, con datos e información confiable, la cual va a aportar valor a la organización, logrando que sus procesos tengan un mayor rendimiento, productividad y desarrollo. Esto permitirá que la empresa sea competitiva en el mercado, debidamente estructurada, con procesos estandarizados y tecnológicos que permitan lograr un excelente producto y servicio, por lo cual nuestros clientes se fidelizan y posicionarán la compañía en los mejores lugares.
 
-        p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene la producción, será un suceso que difícilmente pueda volver a suceder al interior de la compañía.
+        p Al implementar inventarios inteligentes en las empresas, se logrará reducir los riesgos, teniendo en cuenta que la organización está expuesta a bastantes situaciones que pueden poner en peligro la productividad de la misma, pero que si se tiene una correcta planificación y se invierte en tecnología, la amenaza de quedar en determinado momento sin insumos, materias primas o cualquier otro acontecimiento que nos frene la producción, será una situación que difícilmente pueda volver a suceder al interior de la compañía.
 
     .row.mt-5
       p #[b Tipos de tecnología en los inventarios]
