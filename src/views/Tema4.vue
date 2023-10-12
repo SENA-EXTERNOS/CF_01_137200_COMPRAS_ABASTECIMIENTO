@@ -27,14 +27,11 @@
                 img(src='@/assets/curso/temas/tema4/g2.svg', alt='Texto que describa la imagen')
             
             .col-md-8.mb-4.mb-md-0
-              h4 Costos de aprovisionamiento:
-              p son todos los costos INDIRECTOS del producto, dentro de los cuales están actividades de compras de mercancías, insumos y materias primas que son necesarias para la fase productiva. 
+              p <b>Costos de aprovisionamiento:</b> son todos los costos INDIRECTOS del producto, dentro de los cuales están actividades de compras de mercancías, insumos y materias primas que son necesarias para la fase productiva. 
 
               p También se tienen en cuenta procesos como las órdenes de pedidos, selección de proveedores, negociaciones, recepción de pedidos, organización de las mercancías y control del inventario. 
 
-              p Esto quiere decir que los costos de aprovisionamiento son todos los gastos de las gestiones que se realizan para poder producir un producto.
-              
-              pPor Ejemplo: las oficinas, maquinarias, gastos de personal que laboran en el área, consumo de energía, agua, internet, etc.
+              p Esto quiere decir que los costos de aprovisionamiento son todos los gastos de las gestiones que se realizan para poder producir un producto, por ejemplo: las oficinas, maquinarias, gastos de personal que laboran en el área, consumo de energía, agua, internet, etc.
 
                 
         .py-3.py-md-4(titulo="Costos de mantenimiento y almacenamiento")
@@ -44,8 +41,7 @@
                 img(src='@/assets/curso/temas/tema4/g3.svg', alt='Texto que describa la imagen')
                 
             .col-md-8.mb-4.mb-md-0
-              h4 Costos de mantenimiento y almacenamiento:
-              p los costos de almacenamiento son todos los gastos que conlleva el tener en funcionamiento las bodegas para almacenar los productos, mercancías, insumos y materias primas.
+              p <b>Costos de mantenimiento y almacenamiento:</b> los costos de almacenamiento son todos los gastos que conlleva el tener en funcionamiento las bodegas para almacenar los productos, mercancías, insumos y materias primas.
 
               p Estos costos se pueden dividir en: 
 
@@ -65,8 +61,7 @@
                 img(src='@/assets/curso/temas/tema4/g4.svg', alt='Texto que describa la imagen')
                 
             .col-md-8.mb-4.mb-md-0
-              h4 Costos por falta de existencias: 
-              p este tipo de costos sucede cuando la empresa recibe un pedido y no tiene dentro de su inventario el producto o la mercancía para cumplir con el mismo.
+              p <b>Costos por falta de existencias:</b> este tipo de costos sucede cuando la empresa recibe un pedido y no tiene dentro de su inventario el producto o la mercancía para cumplir con el mismo.
               p Es ahí donde se decide que ocurrió un costo por pérdida de venta. Este costo se deduce de la ganancia que había sido generada por dicho pedido pero que no ingresó a caja por la cancelación del mismo.
               p Dentro de este también se encuentran casos como el de pedidos retrasados los cuales generan unos costos adicionales debido a que, si bien la venta sigue en pie, la demora en la entrega va a generar unos gastos adicionales de personal, transporte, entre otros.
                   
